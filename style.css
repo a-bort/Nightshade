@@ -1,0 +1,88 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #731DD8;
+}
+
+body {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-bottom: 80px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-default {
+  background-color: #731DD8;
+  border: 0;
+  border-bottom: 2px solid #8367C7;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 22px;
+}
+
+.navbar-title {
+  font-variant: small-caps;
+}
+
+.navbar-subtitle {
+  font-variant: all-small-caps;
+}
+
+.text-muted {
+  color: #bbb !important;
+}
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+    /* We want to give the content area some more padding */
+    .page-content {
+      width: 575px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+    .home-menu ul {
+        float: right;
+    }
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large devices, we want to over-ride some
+ * of the mobile and tablet styles.
+ */
+@media (min-width: 78em) {
+
+}
