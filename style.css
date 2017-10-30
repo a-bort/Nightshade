@@ -74,6 +74,13 @@ a {
   height: 75px;
 }
 
+#jumbotron-image {
+  /*width: 100%;*/
+  border: 1px solid #887CAF;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -85,17 +92,13 @@ a {
     body {
         font-size: 16px;
     }
-    /* We want to give the content area some more padding */
-    .page-content {
-
-    }
 
     .page-content {
       /*-webkit-box-shadow: 2px 2px 2px 0px #887CAF;
       -moz-box-shadow: 2px 2px 2px 0px #887CAF;
       box-shadow: 2px 2px 2px 0px #887CAF;*/
       padding: 10px;
-      min-height: 200px;
+      /*min-height: 200px;*/
     }
 
     .navbar-brand {
@@ -131,5 +134,11 @@ a {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
+  /*#jumbotron-image {
+    height: 500px;
+  }
 
+  #jumbotron-image > img {
+    margin-top: -150px;
+  }*/
 }
