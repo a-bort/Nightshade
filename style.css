@@ -30,6 +30,10 @@ a:hover {
   color: #887CAF;
 }
 
+.btn-action {
+  background-color: #887CAF;
+}
+
 .navbar-default {
   background-color: #261758;
   border: 0;
