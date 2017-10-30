@@ -23,7 +23,11 @@ h4 {
 }
 
 a {
-  color: #00B7FF;
+  color: #261758;
+}
+
+a:hover {
+  color: #887CAF;
 }
 
 .navbar-default {
@@ -81,6 +85,20 @@ a {
   /*overflow: hidden;*/
 }
 
+.about-row {
+  background-color: #FFFFFF;
+  border: 1px solid #731DD8;
+  margin-bottom: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 1px 0px #887CAF;
+  -moz-box-shadow: 2px 2px 1px 0px #887CAF;
+  box-shadow: 2px 2px 1px 0px #887CAF;
+}
+
+.about-row img {
+  width: 100%;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -124,6 +142,10 @@ a {
     .cell-inner {
       min-height: 300px;
       margin: 10px;
+    }
+
+    .about-row {
+      margin-bottom: 30px;
     }
 
 }
