@@ -23,19 +23,21 @@ h4 {
 }
 
 a {
-  color: #261758;
+  color: #4A9130;
 }
 
-a:hover {
-  color: #887CAF;
+a:hover, a:focus {
+  color: #73B55B;
+  text-decoration: none;
 }
 
 .btn-action {
-  background-color: #887CAF;
+  background-color: #73B55B;
+  color: white;
 }
 
 .btn-action:hover {
-  color: #261758;
+  color: #E8EFE6;
 }
 
 .navbar-default {
@@ -46,15 +48,15 @@ a:hover {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #DDD;
+  color: #FFF;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #AAA;
+  color: #DDD;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #222;
+  color: #000;
   background-color: #887CAF;
 }
 
@@ -118,7 +120,7 @@ a:hover {
 }
 
 .about-row h3 {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .contact-details {
