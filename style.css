@@ -112,7 +112,6 @@ a:hover, a:focus {
   -webkit-box-shadow: 2px 2px 1px 0px #887CAF;
   -moz-box-shadow: 2px 2px 1px 0px #887CAF;
   box-shadow: 2px 2px 1px 0px #887CAF;
-  border-radius: 3px;
 }
 
 .about-row div[class^="col-"]:first-child {
