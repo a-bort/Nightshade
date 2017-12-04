@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 p {
@@ -131,6 +131,14 @@ a:hover, a:focus {
   margin-top: 0px;
 }
 
+.about-row h4:first-child {
+  margin-top: 0px;
+}
+
+.about-row p:last-child {
+  margin-bottom: 0px;
+}
+
 .about-row ul {
   padding-left: 20px;
 }
@@ -141,10 +149,6 @@ a:hover, a:focus {
 
 .contact-details {
   word-wrap: break-word;
-}
-
-.services {
-  font-size: 16px;
 }
 
 /*
