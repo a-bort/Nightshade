@@ -97,9 +97,16 @@ a:hover, a:focus {
   height: 75px;
 }
 
+.left-image {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 0px !important;
+  max-width: 75px;
+}
+
 #jumbotron-image {
   /*width: 100%;*/
-  border: 1px solid #887CAF;
+  border: 2px solid #887CAF;
   width: 100%;
   /*overflow: hidden;*/
 }
@@ -111,7 +118,7 @@ a:hover, a:focus {
   padding: 20px;
   -webkit-box-shadow: 2px 2px 1px 0px #887CAF;
   -moz-box-shadow: 2px 2px 1px 0px #887CAF;
-  box-shadow: 2px 2px 1px 0px #887CAF;
+  box-shadow: 5px 5px 0px 0px #887CAFBA;
 }
 
 .about-row div[class^="col-"]:first-child {
@@ -206,13 +213,18 @@ a:hover, a:focus {
     }
 
     .about-row div[class^="col-"]:first-child {
-      padding-left: 0px;
+      padding-left: 0px !important;
       padding-right: 15px;
     }
 
     .about-row div[class^="col-"]:last-child {
       padding-left: 15px;
-      padding-right: 0px;
+      padding-right: 0px !important;
+    }
+
+    .left-image {
+      margin-right: 15px;
+      max-width: 125px;
     }
 }
 
@@ -222,5 +234,8 @@ a:hover, a:focus {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
-
+  .left-image {
+    float: left;
+    max-width: 200px;
+  }
 }
