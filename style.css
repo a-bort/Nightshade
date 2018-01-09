@@ -56,6 +56,11 @@ a:hover, a:focus {
   color: #E8EFE6;
 }
 
+.center-image {
+  margin: auto;
+  display: block;
+}
+
 .navbar-default {
   background-color: #261758;
   border: 0;
