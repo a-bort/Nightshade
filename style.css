@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Vtks Revolt';
+  src: url('fonts/Vtks_Revolt.ttf') format('truetype');
+}
+
+.revolt {
+  font-family: 'Vtks Revolt',cursive;
+  font-size: 64px;
+}
+
 html {
   position: relative;
   min-height: 100%;
