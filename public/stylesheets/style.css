@@ -1,11 +1,14 @@
 @font-face {
   font-family: 'Vtks Revolt';
-  src: url('fonts/Vtks_Revolt.ttf') format('truetype');
+  src: url('Vtks_Revolt.ttf') format('truetype');
 }
 
 .revolt {
   font-family: 'Vtks Revolt',cursive;
   font-size: 64px;
+  line-height: 10px;
+  display: block;
+  float: left;
 }
 
 html {
@@ -179,6 +182,10 @@ a:hover, a:focus {
 
 .about-row .collapse p:last-child {
   margin-bottom: 10px !important;
+}
+
+.about-padded {
+  padding-top: 45px !important;
 }
 
 .header-btn {
