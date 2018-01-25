@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default" id="navbar-override">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -14,9 +14,21 @@
     </div>
     <div class="collapse navbar-collapse" id="header-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li <% if (pagename == 'about') { %>class="active"<% } %> ><a href="about">About Bort & Caleb</a></li>
-        <li <% if (pagename == 'values') { %>class="active"<% } %> ><a href="values">We give a sh*t!</a></li>
-        <li <% if (pagename == 'services') { %>class="active"<% } %> ><a href="services">Our Services</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">We give a sh*t! <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li <% if (pagename == 'about') { %>class="active"<% } %> ><a href="about">About Bort & Caleb</a></li>
+            <li <% if (pagename == 'values') { %>class="active"<% } %> ><a href="values">Our Values</a></li>
+            <li <% if (pagename == 'manifesto') { %>class="active"<% } %> ><a href="manifesto">Our Manifesto</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">We do stuff too! <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li <% if (pagename == 'services') { %>class="active"<% } %> ><a href="services">Our Services</a></li>
+            <li <% if (pagename == 'plants') { %>class="active"<% } %> ><a href="plants">Badass Plants</a></li>
+          </ul>
+        </li>
         <li <% if (pagename == 'contact') { %>class="active"<% } %> ><a href="contact">Contact Us</a></li>
       </ul>
     </div>

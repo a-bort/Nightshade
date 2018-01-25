@@ -21,6 +21,10 @@ router.get('/manifesto', function(req, res, next) {
   res.render('manifesto', { title: "Manifesto", pagename: "manifesto" });
 });
 
+router.get('/plants', function(req, res, next) {
+  res.render('plants', { title: "Badass Plants", pagename: "plants" });
+});
+
 router.get('/services', function(req, res, next) {
   res.render('services', { title: "Services", pagename: "services" });
 });

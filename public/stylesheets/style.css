@@ -94,6 +94,26 @@ a:hover, a:focus {
   background-color: #887CAF;
 }
 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #FFF;
+  background-color: #261758;
+}
+
+#navbar-override .dropdown-menu {
+  background-color: #261758;
+}
+
+#navbar-override .dropdown-menu>li>a {
+  color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#navbar-override .dropdown-menu>li>a:focus, #navbar-override .dropdown-menu>li>a:hover, #navbar-override .dropdown-menu>.active>a {
+  color: #000;
+  background-color: #887CAF;
+}
+
 .navbar-brand {
   color: #fff !important;
   font-size: 18px;
@@ -244,6 +264,12 @@ hr.header-border {
 
     .navbar-subtitle {
       font-size: 18px;
+    }
+
+    #navbar-override .dropdown-menu {
+      border: 3px solid #887CAF;
+      border-top: none;
+      border-radius: 0px;
     }
 
     /* We can align the menu header to the left, but float the
