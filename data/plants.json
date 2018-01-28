@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Passion Flower",
+    "botanical": "Passiflora spp.",
+    "description": "This vine is the best thing since sliced milk. Impossibly intricate flowers, otherworldly aroma, and the ability the utilize vertical space makes this one of our favorite plants to grow in an urban environment.",
+    "image": "passiflora_2.jpg"
+  },
+  {
+    "name": "Five Color Pepper",
+    "botanical": "Capsicum sp.",
+    "description": "Use these medium-heat chilis in your stir fries...or if you’re a real badass, just pop ‘em in your mouth while you’re enjoying your garden. Ornamental in their own right, the five-color pepper creates a kaleidoscope of colors as the peck of (pickled?) peppers ripen.",
+    "image": "chinese_five_color.jpg"
+  },
+  {
+    "name": "Bloody Dock",
+    "botanical": "Rumex sanguineus",
+    "description": "Debatably the sexiest leaf in existence, adding even just a handful of these leaves into your salad mix transforms it from blah to ooo-la-la. Gorgeous on its own as an ornamental and providing great nutritional density (especially iron), we absolutely love this plant. This species is already being utilized at high end restaurants in DC and throughout the country.",
+    "image": "bloody_dock.jpg"
+  },
+  {
+    "name": "Lemongrass",
+    "botanical": "Cymbopogon citratus",
+    "description": "Throughout the growing season, feel free to harvest the fresh leaves of this badass plant for cooking. Also reap the benefits of the species’ natural mosquito repellent properties. At the end of the season you’ll be able to harvest the lower, thickened stalks to use in soups and stir fries.",
+    "image": "lemongrass.jpg"
+  },
+  {
+    "name": "Hardy perennial herbs: Oregano, rosemary, thyme",
+    "description": "These herbs are all fantastic in sauces, veggie or meat roasts, soups, and cocktails. Low maintenance, perennial, and packed with vitamins and minerals, these herbs are staples in our kitchen-gardens.",
+    "image": "rosemary_thyme_oregano.jpg"
+  },
+  {
+    "name": "Mints: Spearmint, chocolate mint, pineapple mint, peppermint, etc.",
+    "description": "We don’t even know where to begin with mint. The varieties available are only limited by your imagination and adventurousness. You can get truly creative with these plants, from savory eastern-spiced entrees to delicate cocktails and desserts. The possibilities are endless!",
+    "image": "mint.jpg"
+  },
+  {
+    "name": "Basils: Italian basil, Thai basil, cinnamon basil, purple-leaf basil, etc.",
+    "description": "Similar to mint in the redonkulous variety of cultivars available, basils vary in flavor, aroma, color, and form. Flavors range from the traditional peppery zing to eastern varieties with tantalizing anise aromas. Some varieties are astoundingly ornamental, with deep purples or ruffled leaf textures. These sun-loving plants are a must have for cooking and cocktails!",
+    "image": "basil.jpg"
+  },
+  {
+    "name": "Aromatic herbs: Lemon verbana, catnip, lemonbalm, lavender",
+    "description": "These delicate herbs pack some amazing aromatic compounds that will transform cocktails and brew tasty teas. If you’re a cat lover (or have friends or family that are) you will become a hero to your feline friends.",
+    "image": "catnip.jpg"
+  }
+]
