@@ -238,8 +238,13 @@ hr.header-border {
   margin-bottom: 0px;
 }
 
+.contact-type {
+  padding-right: 10px;
+}
+
 .contact-details {
-  word-wrap: break-word;
+  border-left: 1px solid;
+  padding-left: 10px;
 }
 
 /*
