@@ -1,6 +1,6 @@
 @background-color:  #FFFFFF;
-@text-color:        #333333;
-@text-color-inv:    #FFFFFF;
+@text-color-dark:   #333333;
+@text-color-light:  #FFFFFF;
 @primary-color:     #261758;
 @secondary-color:   #887CAF;
 @shadow-color:      lighten(@secondary-color, 10%);
@@ -11,6 +11,10 @@
 @thick-border:      5px solid;
 
 @shadow:            5px 5px 0px 0px;
+
+@header-text-color: @text-color-light;
+@body-text-color:   @text-color-dark;
+@button-text-color: @text-color-light;
 
 @font-face {
   font-family: 'Vtks Revolt';
@@ -52,7 +56,7 @@ body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   margin-bottom: 80px;
   background-color: @background-color;
-  color: @text-color;
+  color: @body-text-color;
 }
 
 h3 {
@@ -77,9 +81,9 @@ a {
 
 .btn-action {
   background-color: @link-color;
-  color: @text-color-inv;
+  color: @button-text-color;
   &:hover {
-    color: darken(@text-color-inv, 10%);
+    color: darken(@button-text-color, 10%);
   }
 }
 
@@ -96,7 +100,7 @@ a {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: @text-color-inv;
+  color: @header-text-color;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -129,7 +133,7 @@ a {
 }
 
 .navbar-brand {
-  color: @text-color-inv !important;
+  color: @header-text-color !important;
   font-size: 18px;
 }
 
