@@ -1,20 +1,30 @@
-@background-color:  #FFFFFF;
-@text-color-dark:   #333333;
-@text-color-light:  #FFFFFF;
-@primary-color:     #261758;
-@secondary-color:   #887CAF;
-@shadow-color:      lighten(@secondary-color, 10%);
-@link-color:        #4A9130;
-@link-color-hover:  darken(@link-color, 10%);
+@background-color:      #000000;
+@text-color-dark:       #333333;
+@text-color-light:      #CCCCCC;
+@primary-color:         #290895;//#261758;
+@primary-color-light:   lighten(@primary-color, 20%);
+@secondary-color:       #009B43;//#887CAF;
+@tertiary-color:        #C9002B;//#4A9130
 
-@thin-border:       2px solid;
-@thick-border:      5px solid;
+@border-color:          @primary-color-light;
+@shadow-color:          lighten(@border-color, 10%);
+@link-color:            @tertiary-color;
+@link-color-hover:      @secondary-color;
+@button-color:          @tertiary-color;
+@button-color-hover:    @secondary-color;
+@button-text-color:     @text-color-light;
 
-@shadow:            5px 5px 0px 0px;
+@thin-border:           2px solid;
+@thick-border:          5px solid;
 
-@header-text-color: @text-color-light;
-@body-text-color:   @text-color-dark;
-@button-text-color: @text-color-light;
+@shadow:                5px 5px 0px 0px;
+
+@header-text-color:     @text-color-light;
+@header-text-inv-color: @text-color-light;
+@header-btn-color:      @primary-color;
+@header-alt-color:      @primary-color-light;
+@body-text-color:       @text-color-light;
+
 
 @font-face {
   font-family: 'Vtks Revolt';
@@ -41,7 +51,7 @@ html {
   height: 65px;
   line-height: 60px; /* Vertically center the text there */
   background-color: @primary-color;
-  border-top: @thick-border @secondary-color;
+  border-top: @thick-border @border-color;
 }
 
 .right {
@@ -74,16 +84,17 @@ p {
 a {
   color: @link-color;
   &:hover, &:focus {
-    color: @link-color-hover;
     text-decoration: none;
+    color: @link-color-hover;
   }
 }
 
 .btn-action {
-  background-color: @link-color;
+  background-color: @button-color;
   color: @button-text-color;
   &:hover {
-    color: darken(@button-text-color, 10%);
+    background-color: @button-color-hover;
+    color: @button-text-color;
   }
 }
 
@@ -95,41 +106,40 @@ a {
 .navbar-default {
   background-color: @primary-color;
   border: 0;
-  border-bottom: @thick-border @secondary-color;
+  border-bottom: @thick-border @border-color;
   border-radius: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: @header-text-color;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #DDD;
+  &:hover, &:focus {
+    color: @header-text-color;
+  }
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #000;
-  background-color: #887CAF;
+  color: @header-text-color;
+  background-color: @header-alt-color;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  color: #FFF;
-  background-color: #261758;
+  color: @header-text-color;
+  background-color: @header-btn-color;
 }
 
 #navbar-override .dropdown-menu {
-  background-color: #261758;
+  background-color: @header-btn-color;
 }
 
 #navbar-override .dropdown-menu>li>a {
-  color: #FFF;
+  color: @header-text-color;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #navbar-override .dropdown-menu>li>a:focus, #navbar-override .dropdown-menu>li>a:hover, #navbar-override .dropdown-menu>.active>a {
-  color: #000;
-  background-color: #887CAF;
+  color: @header-text-color;
+  background-color: @header-alt-color;
 }
 
 .navbar-brand {
@@ -144,10 +154,6 @@ a {
 .navbar-subtitle {
   font-variant: all-small-caps;
   font-size: 16px;
-}
-
-.text-muted {
-  color: #bbb !important;
 }
 
 .left-image {
@@ -166,7 +172,7 @@ a {
 
 .about-row {
   background-color: @background-color;
-  border: @thin-border @secondary-color;
+  border: @thin-border @border-color;
   margin: 10px;
   padding: 20px;
   -webkit-box-shadow: @shadow @shadow-color;
@@ -232,7 +238,7 @@ a {
   font-family: 'Glyphicons Halflings';
   content: "\e113";
   float: right;
-  color: @secondary-color;
+  color: @header-text-color;
   font-size: 12px;
 }
 
@@ -279,7 +285,7 @@ hr.header-border {
     }
 
     #navbar-override .dropdown-menu {
-      border: @thin-border @secondary-color;
+      border: @thin-border @border-color;
       border-top: none;
       border-radius: 0px;
     }
