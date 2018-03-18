@@ -21,8 +21,8 @@ html {
   height: 65px;
   line-height: 60px;
   /* Vertically center the text there */
-  background-color: #290895;
-  border-top: 5px solid #4611f2;
+  background-color: #310661;
+  border-top: 5px solid #620cc1;
 }
 .right {
   float: right;
@@ -46,19 +46,19 @@ p {
   margin-bottom: 15px;
 }
 a {
-  color: #C9002B;
+  color: #46950E;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #009B43;
+  color: #98CA74;
 }
 .btn-action {
-  background-color: #C9002B;
+  background-color: #46950E;
   color: #CCCCCC;
 }
 .btn-action:hover {
-  background-color: #009B43;
+  background-color: #98CA74;
   color: #CCCCCC;
 }
 .center-image {
@@ -66,9 +66,9 @@ a:focus {
   display: block;
 }
 .navbar-default {
-  background-color: #290895;
+  background-color: #310661;
   border: 0;
-  border-bottom: 5px solid #4611f2;
+  border-bottom: 5px solid #620cc1;
   border-radius: 0;
 }
 .navbar-default .navbar-nav > li > a {
@@ -82,16 +82,16 @@ a:focus {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #CCCCCC;
-  background-color: #4611f2;
+  background-color: #620cc1;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
   color: #CCCCCC;
-  background-color: #290895;
+  background-color: #310661;
 }
 #navbar-override .dropdown-menu {
-  background-color: #290895;
+  background-color: #310661;
 }
 #navbar-override .dropdown-menu > li > a {
   color: #CCCCCC;
@@ -102,7 +102,7 @@ a:focus {
 #navbar-override .dropdown-menu > li > a:hover,
 #navbar-override .dropdown-menu > .active > a {
   color: #CCCCCC;
-  background-color: #4611f2;
+  background-color: #620cc1;
 }
 .navbar-brand {
   color: #CCCCCC !important;
@@ -123,18 +123,18 @@ a:focus {
 }
 #jumbotron-image {
   /*width: 100%;*/
-  border: 2px solid #4611f2;
+  border: 2px solid #620cc1;
   width: 100%;
   /*overflow: hidden;*/
 }
 .about-row {
   background-color: #000000;
-  border: 2px solid #4611f2;
+  border: 2px solid #620cc1;
   margin: 10px;
   padding: 20px;
-  -webkit-box-shadow: 5px 5px 0px 0px #6b41f5;
-  -moz-box-shadow: 5px 5px 0px 0px #6b41f5;
-  box-shadow: 5px 5px 0px 0px #6b41f5;
+  -webkit-box-shadow: 5px 5px 0px 0px #7a10f0;
+  -moz-box-shadow: 5px 5px 0px 0px #7a10f0;
+  box-shadow: 5px 5px 0px 0px #7a10f0;
 }
 .about-row div[class^="col-"]:first-child {
   padding: 0px;
@@ -221,7 +221,7 @@ hr.header-border {
     font-size: 18px;
   }
   #navbar-override .dropdown-menu {
-    border: 2px solid #4611f2;
+    border: 2px solid #620cc1;
     border-top: none;
     border-radius: 0px;
   }
