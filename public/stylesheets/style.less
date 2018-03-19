@@ -3,15 +3,17 @@
 @text-color-light:      #CCCCCC;
 @primary-color:         #310661;//#290895;//#261758;
 @primary-color-light:   lighten(@primary-color, 20%);
-@secondary-color:       #98CA74;//#887CAF;
-@tertiary-color:        #46950E;//#4A9130
+@secondary-color:       #176189;//#887CAF;
+@secondary-color-light: lighten(@secondary-color, 20%);
+@tertiary-color:        #D7A71A;//#4A9130
+@tertiary-color-light:  lighten(@tertiary-color, 20%);
 
 @border-color:          @primary-color-light;
 @shadow-color:          lighten(@border-color, 10%);
 @link-color:            @tertiary-color;
-@link-color-hover:      @secondary-color;
-@button-color:          @tertiary-color;
-@button-color-hover:    @secondary-color;
+@link-color-hover:      @tertiary-color-light;
+@button-color:          @secondary-color;
+@button-color-hover:    @secondary-color-light;
 @button-text-color:     @text-color-light;
 
 @thin-border:           2px solid;

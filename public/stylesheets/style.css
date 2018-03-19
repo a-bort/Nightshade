@@ -46,19 +46,19 @@ p {
   margin-bottom: 15px;
 }
 a {
-  color: #46950E;
+  color: #D7A71A;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #98CA74;
+  color: #edcc6a;
 }
 .btn-action {
-  background-color: #46950E;
+  background-color: #176189;
   color: #CCCCCC;
 }
 .btn-action:hover {
-  background-color: #98CA74;
+  background-color: #2b9ddb;
   color: #CCCCCC;
 }
 .center-image {
