@@ -57,6 +57,9 @@ a:focus {
   text-decoration: none;
   color: #edcc6a;
 }
+.highlight {
+  color: #176189;
+}
 .btn-action {
   background-color: #176189;
   color: #CCCCCC;
