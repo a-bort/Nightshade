@@ -27,16 +27,24 @@
 @header-alt-color:      @primary-color-light;
 @body-text-color:       @text-color-light;
 
+@revolt-font:           'Vtks Revolt';
+@flower-font:           'FlowersInitials';
+@script-font:           @revolt-font;
 
 @font-face {
-  font-family: 'Vtks Revolt';
+  font-family: @revolt-font;
   src: url('Vtks_Revolt.ttf') format('truetype');
 }
 
-.revolt {
-  font-family: 'Vtks Revolt',cursive;
-  font-size: 64px;
-  line-height: 10px;
+@font-face {
+  font-family: @flower-font;
+  src: url('FlowersInitials.ttf') format('truetype');
+}
+
+.script-font {
+  font-family: @script-font,cursive;
+  font-size: 58px;
+  line-height: 24px;
   display: block;
   float: left;
 }

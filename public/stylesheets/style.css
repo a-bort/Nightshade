@@ -2,10 +2,14 @@
   font-family: 'Vtks Revolt';
   src: url('Vtks_Revolt.ttf') format('truetype');
 }
-.revolt {
+@font-face {
+  font-family: 'FlowersInitials';
+  src: url('FlowersInitials.ttf') format('truetype');
+}
+.script-font {
   font-family: 'Vtks Revolt', cursive;
-  font-size: 64px;
-  line-height: 10px;
+  font-size: 58px;
+  line-height: 24px;
   display: block;
   float: left;
 }
