@@ -40,6 +40,9 @@ body {
   background-color: #FFFFFF;
   color: #333333;
 }
+h2 {
+  font-family: 'Yatra One', cursive;
+}
 h3 {
   font-family: 'Yatra One', cursive;
   margin-bottom: 15px;
@@ -142,6 +145,14 @@ a:focus {
 #jumbotron-container {
   margin-left: 50px;
   margin-right: 50px;
+}
+#jumbotron-footer {
+  margin-top: 5px;
+}
+#ig-logo {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0px;
 }
 .about-row {
   background-color: #FFFFFF;
