@@ -1,15 +1,15 @@
-@background-color:      #000000;
+@background-color:      #FFFFFF;//#000000;
 @text-color-dark:       #333333;
 @text-color-light:      #CCCCCC;
-@primary-color:         #310661;//#290895;//#261758;
+@primary-color:         #140227;//#310661;//#290895;//#261758;
 @primary-color-light:   lighten(@primary-color, 20%);
 @secondary-color:       #176189;//#887CAF;
 @secondary-color-light: lighten(@secondary-color, 20%);
-@tertiary-color:        #D7A71A;//#4A9130
+@tertiary-color:        #199A2A;//#4A9130
 @tertiary-color-light:  lighten(@tertiary-color, 20%);
 
 @border-color:          @primary-color-light;
-@shadow-color:          lighten(@border-color, 10%);
+@shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
 @link-color:            @tertiary-color;
 @link-color-hover:      @tertiary-color-light;
 @button-color:          @secondary-color;
@@ -25,10 +25,12 @@
 @header-text-inv-color: @text-color-light;
 @header-btn-color:      @primary-color;
 @header-alt-color:      @primary-color-light;
-@body-text-color:       @text-color-light;
+@body-text-color:       @text-color-dark;
 
 @revolt-font:           'Vtks Revolt';
 @flower-font:           'FlowersInitials';
+@playfair-font:         'Playfair Display';
+@title-font:            'Yatra One', cursive;
 @script-font:           @revolt-font;
 
 @font-face {
@@ -53,6 +55,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -73,17 +76,19 @@ html {
 }
 
 body {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;//Futura, "Trebuchet MS", Arial, sans-serif;
   margin-bottom: 80px;
   background-color: @background-color;
   color: @body-text-color;
 }
 
 h3 {
+  font-family: @title-font;
   margin-bottom: 15px;
 }
 
 h4 {
+  font-family: @title-font;
   font-size: 18px;
 }
 
@@ -154,6 +159,10 @@ a {
 #navbar-override .dropdown-menu>li>a:focus, #navbar-override .dropdown-menu>li>a:hover, #navbar-override .dropdown-menu>.active>a {
   color: @header-text-color;
   background-color: @header-alt-color;
+}
+
+#navbar-override .dropdown-toggle {
+  min-width: 163px;
 }
 
 .navbar-brand {
@@ -246,6 +255,7 @@ a {
   background: @background-color;
   border: none;
   font-size: 18px;
+  font-family: @title-font;
 }
 
 .header-btn:after {
