@@ -25,8 +25,8 @@ html {
   height: 65px;
   line-height: 60px;
   /* Vertically center the text there */
-  background-color: #140227;
-  border-top: 5px solid #460788;
+  background-color: #2C0C4E;
+  border-top: 5px solid #5e1aa6;
 }
 .right {
   float: right;
@@ -75,9 +75,9 @@ a:focus {
   display: block;
 }
 .navbar-default {
-  background-color: #140227;
+  background-color: #2C0C4E;
   border: 0;
-  border-bottom: 5px solid #460788;
+  border-bottom: 5px solid #5e1aa6;
   border-radius: 0;
 }
 .navbar-default .navbar-nav > li > a {
@@ -91,16 +91,16 @@ a:focus {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #CCCCCC;
-  background-color: #460788;
+  background-color: #5e1aa6;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
   color: #CCCCCC;
-  background-color: #140227;
+  background-color: #2C0C4E;
 }
 #navbar-override .dropdown-menu {
-  background-color: #140227;
+  background-color: #2C0C4E;
 }
 #navbar-override .dropdown-menu > li > a {
   color: #CCCCCC;
@@ -111,7 +111,7 @@ a:focus {
 #navbar-override .dropdown-menu > li > a:hover,
 #navbar-override .dropdown-menu > .active > a {
   color: #CCCCCC;
-  background-color: #460788;
+  background-color: #5e1aa6;
 }
 #navbar-override .dropdown-toggle {
   min-width: 163px;
@@ -135,13 +135,13 @@ a:focus {
 }
 #jumbotron-image {
   /*width: 100%;*/
-  border: 2px solid #460788;
+  border: 2px solid #5e1aa6;
   width: 100%;
   /*overflow: hidden;*/
 }
 .about-row {
   background-color: #FFFFFF;
-  border: 2px solid #460788;
+  border: 2px solid #5e1aa6;
   margin: 10px;
   padding: 20px;
   -webkit-box-shadow: 5px 5px 0px 0px #D6BEEF;
@@ -234,7 +234,7 @@ hr.header-border {
     font-size: 18px;
   }
   #navbar-override .dropdown-menu {
-    border: 2px solid #460788;
+    border: 2px solid #5e1aa6;
     border-top: none;
     border-radius: 0px;
   }
