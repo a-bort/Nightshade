@@ -139,6 +139,10 @@ a:focus {
   width: 100%;
   /*overflow: hidden;*/
 }
+#jumbotron-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .about-row {
   background-color: #FFFFFF;
   border: 2px solid #5e1aa6;
