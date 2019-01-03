@@ -1,5 +1,11 @@
 <footer class="footer">
   <div class="container">
-    <span>Nightshade Landscapes LLC</span>
+    <span id="footer-text">Nightshade Culinary Landscapes LLC &copy;&nbsp;</span>
   </div>
 </footer>
+<script type="text/javascript">
+  $(function(){
+    var footerSpan = $("#footer-text");
+    footerSpan.text(footerSpan.text() + new Date().getFullYear());
+  });
+</script>
