@@ -27,7 +27,7 @@ html {
   line-height: 60px;
   /* Vertically center the text there */
   background-color: #2C0C4E;
-  border-top: 5px solid #5e1aa6;
+  border-top: 2px solid #c59cf0;
 }
 .right {
   float: right;
@@ -40,6 +40,9 @@ body {
   margin-bottom: 80px;
   background-color: #FFFFFF;
   color: #333333;
+}
+h1 {
+  font-family: 'Yatra One', cursive;
 }
 h2 {
   font-family: 'Yatra One', cursive;
@@ -60,15 +63,18 @@ li {
   text-align: justify;
 }
 a {
-  color: #199A2A;
+  color: #176189;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #3adf50;
+  color: #2b9ddb;
 }
 .highlight {
   color: #176189;
+}
+.inline-highlight {
+  color: #E4C634;
 }
 .btn-action {
   background-color: #176189;
@@ -82,10 +88,41 @@ a:focus {
   margin: auto;
   display: block;
 }
+.banner {
+  background-color: #2C0C4E;
+  color: #CCCCCC;
+  font-family: 'Yatra One', cursive;
+}
+.banner-head {
+  font-size: 58px;
+  line-height: 28px;
+  padding-top: 30px;
+  font-variant: small-caps;
+}
+.banner-subhead {
+  font-size: 28px;
+  font-variant: all-small-caps;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-header {
+  text-align: center;
+}
+.navbar .navbar-toggle {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
 .navbar-default {
   background-color: #2C0C4E;
   border: 0;
-  border-bottom: 5px solid #5e1aa6;
+  border-bottom: 2px solid #c59cf0;
   border-radius: 0;
 }
 .navbar-default .navbar-nav > li > a {
@@ -99,7 +136,9 @@ a:focus {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #CCCCCC;
-  background-color: #5e1aa6;
+  background-color: #2C0C4E;
+  text-decoration: underline;
+  text-decoration-color: #E4C634;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
@@ -119,21 +158,12 @@ a:focus {
 #navbar-override .dropdown-menu > li > a:hover,
 #navbar-override .dropdown-menu > .active > a {
   color: #CCCCCC;
-  background-color: #5e1aa6;
+  background-color: #2C0C4E;
+  text-decoration: underline;
+  text-decoration-color: #E4C634;
 }
 #navbar-override .dropdown-toggle {
   min-width: 163px;
-}
-.navbar-brand {
-  color: #CCCCCC !important;
-  font-size: 18px;
-}
-.navbar-title {
-  font-variant: small-caps;
-}
-.navbar-subtitle {
-  font-variant: all-small-caps;
-  font-size: 16px;
 }
 .left-image {
   float: left;
@@ -143,7 +173,7 @@ a:focus {
 }
 #jumbotron-image {
   /*width: 100%;*/
-  border: 2px solid #5e1aa6;
+  border: 2px solid #c59cf0;
   width: 100%;
   /*overflow: hidden;*/
 }
@@ -190,7 +220,7 @@ a:focus {
   margin-bottom: 10px !important;
 }
 .highlight-box {
-  background-color: #ecdffa;
+  background-color: #c59cf0;
   padding: 20px;
 }
 .highlight-box a {
@@ -257,7 +287,7 @@ hr.header-border {
     font-size: 18px;
   }
   #navbar-override .dropdown-menu {
-    border: 2px solid #5e1aa6;
+    border: 2px solid #c59cf0;
     border-top: none;
     border-radius: 0px;
   }
