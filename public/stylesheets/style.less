@@ -147,6 +147,7 @@ a {
   background-color: @primary-color;
   color: @header-text-color;
   font-family: @title-font;
+  display: none;
 }
 
 .banner-head {
@@ -166,16 +167,6 @@ a {
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-header {
-  text-align: center;
-}
-
-.navbar .navbar-toggle {
   display: inline-block;
   float: none;
   vertical-align: top;
@@ -228,19 +219,20 @@ a {
   min-width: 163px;
 }
 
-// .navbar-brand {
-//   color: @header-text-color !important;
-//   font-size: 18px;
-// }
+.navbar-brand {
+  color: @header-text-color !important;
+  font-size: 24px;
+  display: block;
+}
 
-// .navbar-title {
-//   font-variant: small-caps;
-// }
-//
-// .navbar-subtitle {
-//   font-variant: all-small-caps;
-//   font-size: 16px;
-// }
+.navbar-title {
+  font-variant: small-caps;
+}
+
+.navbar-subtitle {
+  font-variant: all-small-caps;
+  font-size: 18px;
+}
 
 .left-image {
   float: left;
@@ -391,11 +383,11 @@ hr.header-border {
     }
 
     .navbar-brand {
-      font-size: 22px;
+      display: none;
     }
 
-    .navbar-subtitle {
-      font-size: 18px;
+    .banner {
+      display: block;
     }
 
     #navbar-override .dropdown-menu {
