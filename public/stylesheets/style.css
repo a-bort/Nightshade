@@ -70,6 +70,18 @@ a:focus {
   text-decoration: none;
   color: #2b9ddb;
 }
+.push-sm {
+  margin-bottom: 10px;
+}
+.push-md {
+  margin-bottom: 20px;
+}
+.push-lg {
+  margin-bottom: 30px;
+}
+.large-p-text {
+  font-size: 20px;
+}
 .highlight {
   color: #176189;
 }
@@ -83,6 +95,9 @@ a:focus {
 .btn-action:hover {
   background-color: #2b9ddb;
   color: #FFFFFF;
+}
+.btn-lg {
+  font-size: 20px;
 }
 .center-image {
   margin: auto;
@@ -103,6 +118,10 @@ a:focus {
 .banner-subhead {
   font-size: 28px;
   font-variant: all-small-caps;
+}
+.banner a {
+  text-decoration: none;
+  color: #CCCCCC;
 }
 .navbar .navbar-collapse {
   text-align: center;
@@ -236,6 +255,10 @@ a:focus {
   text-decoration: none;
   color: #2b9ddb;
 }
+.ig-scroller {
+  width: 100%;
+  padding-top: 10px;
+}
 .about-image {
   max-width: 300px;
 }
@@ -264,6 +287,9 @@ a:focus {
 hr.header-border {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+hr {
+  border-top: 1px solid #E4C634;
 }
 .contact-type {
   padding-right: 10px;
