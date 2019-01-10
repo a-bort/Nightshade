@@ -41,18 +41,17 @@ body {
   background-color: #FFFFFF;
   color: #333333;
 }
-h1 {
-  font-family: 'Yatra One', cursive;
-}
-h2 {
+h1,
+h2,
+h3,
+h4 {
+  font-variant: small-caps;
   font-family: 'Yatra One', cursive;
 }
 h3 {
-  font-family: 'Yatra One', cursive;
   margin-bottom: 15px;
 }
 h4 {
-  font-family: 'Yatra One', cursive;
   font-size: 18px;
 }
 p {
@@ -69,6 +68,9 @@ a:hover,
 a:focus {
   text-decoration: none;
   color: #2b9ddb;
+}
+.mobile-only {
+  display: block;
 }
 .push-sm {
   margin-bottom: 10px;
@@ -98,10 +100,24 @@ a:focus {
 }
 .btn-lg {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 .center-image {
   margin: auto;
   display: block;
+}
+.left-image {
+  float: left;
+  margin-right: 10px;
+}
+.backstory-image {
+  max-width: 275px;
+}
+.personal-image {
+  max-width: 225px;
+}
+.services-image {
+  max-width: 200px;
 }
 .banner {
   background-color: #2C0C4E;
@@ -179,6 +195,7 @@ a:focus {
 }
 .navbar-brand {
   color: #CCCCCC !important;
+  font-family: 'Yatra One', cursive;
   font-size: 24px;
   display: block;
 }
@@ -188,12 +205,6 @@ a:focus {
 .navbar-subtitle {
   font-variant: all-small-caps;
   font-size: 18px;
-}
-.left-image {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 0px !important;
-  max-width: 75px;
 }
 #jumbotron-image {
   /*width: 100%;*/
@@ -246,6 +257,10 @@ a:focus {
 .highlight-box {
   background-color: #c59cf0;
   padding: 20px;
+  margin-bottom: 20px;
+}
+.highlight-box h4 {
+  font-variant: normal;
 }
 .highlight-box a {
   color: #176189;
@@ -258,9 +273,6 @@ a:focus {
 .ig-scroller {
   width: 100%;
   padding-top: 10px;
-}
-.about-image {
-  max-width: 300px;
 }
 .about-padded {
   padding-top: 45px !important;
@@ -289,7 +301,7 @@ hr.header-border {
   margin-bottom: 0px;
 }
 hr {
-  border-top: 1px solid #E4C634;
+  border-top: 1px solid #c59cf0;
 }
 .contact-type {
   padding-right: 10px;
@@ -322,6 +334,9 @@ hr {
     border-top: none;
     border-radius: 0px;
   }
+  .mobile-only {
+    display: none;
+  }
   /* We can align the menu header to the left, but float the
     menu items to the right. */
   .home-menu {
@@ -353,7 +368,12 @@ hr {
   }
   .left-image {
     margin-right: 15px;
-    max-width: 125px;
+  }
+  .backstory-image {
+    max-width: 350px;
+  }
+  .personal-image {
+    max-width: 300px;
   }
 }
 /*
@@ -361,9 +381,3 @@ hr {
  * On desktops and other large devices, we want to over-ride some
  * of the mobile and tablet styles.
  */
-@media (min-width: 78em) {
-  .left-image {
-    float: left;
-    max-width: 200px;
-  }
-}

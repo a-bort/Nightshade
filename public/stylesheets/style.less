@@ -1,15 +1,15 @@
 @background-color:      #FFFFFF;//#000000;
 @text-color-dark:       #333333;
 @text-color-light:      #CCCCCC;
-@primary-color:         #2C0C4E;//#140227;//#310661;//#290895;//#261758;
+@primary-color:         #2C0C4E; //deep purple //#140227;//#310661;//#290895;//#261758;
 @primary-color-light:   lighten(@primary-color, 20%);
 @primary-color-lighter: lighten(@primary-color, 60%);
-@secondary-color:       #176189;//#887CAF;
+@secondary-color:       #176189;//teal / blue #887CAF;
 @secondary-color-light: lighten(@secondary-color, 20%);
-@tertiary-color:        #199A2A;//#4A9130
+@tertiary-color:        #199A2A;//green #4A9130
 @tertiary-color-light:  lighten(@tertiary-color, 20%);
 
-@highlight-color:       #E4C634;
+@highlight-color:       #E4C634;//canary yellow
 
 @border-color:          @primary-color-lighter;
 @shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
@@ -86,21 +86,18 @@ body {
   color: @body-text-color;
 }
 
-h1 {
+h1, h2, h3, h4 {
+  font-variant: small-caps;
   font-family: @title-font;
 }
 
-h2 {
-  font-family: @title-font;
-}
+
 
 h3 {
-  font-family: @title-font;
   margin-bottom: 15px;
 }
 
 h4 {
-  font-family: @title-font;
   font-size: 18px;
 }
 
@@ -119,6 +116,10 @@ a {
     text-decoration: none;
     color: @link-color-hover;
   }
+}
+
+.mobile-only {
+  display: block;
 }
 
 .push-sm {
@@ -156,11 +157,29 @@ a {
 
 .btn-lg {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .center-image {
   margin: auto;
   display: block;
+}
+
+.left-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.backstory-image {
+  max-width: 275px;
+}
+
+.personal-image {
+  max-width: 225px;
+}
+
+.services-image {
+  max-width: 200px;
 }
 
 .banner {
@@ -246,6 +265,7 @@ a {
 
 .navbar-brand {
   color: @header-text-color !important;
+  font-family: @title-font;
   font-size: 24px;
   display: block;
 }
@@ -257,13 +277,6 @@ a {
 .navbar-subtitle {
   font-variant: all-small-caps;
   font-size: 18px;
-}
-
-.left-image {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 0px !important;
-  max-width: 75px;
 }
 
 #jumbotron-image {
@@ -297,14 +310,6 @@ a {
   box-shadow: @shadow @shadow-color;*/
 }
 
-// .content-box div[class^="col-"]:first-child {
-//   padding: 0px;
-// }
-//
-// .content-box div[class^="col-"]:last-child {
-//   padding: 0px;
-// }
-
 .content-box img {
   width: 100%;
   margin-bottom: 20px;
@@ -337,6 +342,11 @@ a {
 .highlight-box {
   background-color: @primary-color-lighter;
   padding: 20px;
+  margin-bottom: 20px;
+}
+
+.highlight-box h4 {
+  font-variant: normal;
 }
 
 .highlight-box a {
@@ -350,19 +360,6 @@ a {
 .ig-scroller {
   width: 100%;
   padding-top: 10px;
-}
-
-// .ig-logo-overlay {
-//   border-radius: 0 0 0 15px;
-//   background-color: #FFFFFFCC;
-//   padding-bottom: 10px;
-//   float: right;
-//   position: absolute;
-//   clear: both;
-// }
-
-.about-image {
-  max-width: 300px;
 }
 
 .about-padded {
@@ -397,7 +394,7 @@ hr.header-border {
 }
 
 hr {
-  border-top: 1px solid @highlight-color;
+  border-top: 1px solid @border-color;
 }
 
 .contact-type {
@@ -439,6 +436,10 @@ hr {
       border-radius: 0px;
     }
 
+    .mobile-only {
+      display: none;
+    }
+
     /* We can align the menu header to the left, but float the
     menu items to the right. */
     .home-menu {
@@ -477,7 +478,14 @@ hr {
 
     .left-image {
       margin-right: 15px;
-      max-width: 125px;
+    }
+
+    .backstory-image {
+      max-width: 350px;
+    }
+
+    .personal-image {
+      max-width: 300px;
     }
 }
 
@@ -487,8 +495,5 @@ hr {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
-  .left-image {
-    float: left;
-    max-width: 200px;
-  }
+
 }
