@@ -13,7 +13,7 @@
 
 @border-color:          @primary-color-lighter;
 @shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
-@link-color:            @secondary-color;
+@link-color:            @text-color-dark;
 @link-color-hover:      @secondary-color-light;
 @button-color:          @secondary-color;
 @button-color-hover:    @secondary-color-light;
@@ -91,10 +91,8 @@ h1, h2, h3, h4 {
   font-family: @title-font;
 }
 
-
-
 h3 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -110,11 +108,29 @@ li {
   text-align: justify;
 }
 
-a {
+.page-content a {
   color: @link-color;
+  text-decoration: underline;
+  font-weight: bold;
+  &:hover, &:focus {
+    color: @link-color-hover;
+  }
+}
+
+.page-content a.btn {
+  text-decoration: none;
+  font-weight: normal;
   &:hover, &:focus {
     text-decoration: none;
-    color: @link-color-hover;
+  }
+}
+
+.page-content a.btn-action {
+  background-color: @button-color;
+  color: @button-text-color;
+  &:hover, &:focus {
+    background-color: @button-color-hover;
+    color: @button-text-color;
   }
 }
 
@@ -144,15 +160,6 @@ a {
 
 .inline-highlight {
   color: @highlight-color;
-}
-
-.btn-action {
-  background-color: @button-color;
-  color: @button-text-color;
-  &:hover {
-    background-color: @button-color-hover;
-    color: @button-text-color;
-  }
 }
 
 .btn-lg {
@@ -312,7 +319,7 @@ a {
 
 .content-box img {
   width: 100%;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
 }
 
 .content-box h3, .content-box h2, .content-box h1 {
@@ -347,14 +354,6 @@ a {
 
 .highlight-box h4 {
   font-variant: normal;
-}
-
-.highlight-box a {
-  color: @button-color;
-  &:hover, &:focus {
-    text-decoration: none;
-    color: @button-color-hover;
-  }
 }
 
 .ig-scroller {
@@ -416,6 +415,10 @@ hr {
     /* We increase the body font size */
     body {
         font-size: 16px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
     }
 
     .page-content {
