@@ -10,6 +10,7 @@
 @tertiary-color-light:  lighten(@tertiary-color, 20%);
 
 @highlight-color:       #E4C634;//canary yellow
+@highlight-background:  #E0CFF3;//light lavender
 
 @border-color:          @primary-color-lighter;
 @shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
@@ -89,6 +90,10 @@ body {
 h1, h2, h3, h4 {
   font-variant: small-caps;
   font-family: @title-font;
+}
+
+h1 {
+  margin-top: 0px;
 }
 
 h3 {
@@ -312,6 +317,7 @@ li {
 .content-box {
   //border: @thin-border @border-color;
   margin: 10px;
+  margin-bottom: 20px;
   /*-webkit-box-shadow: @shadow @shadow-color;
   -moz-box-shadow: @shadow @shadow-color;
   box-shadow: @shadow @shadow-color;*/
@@ -347,7 +353,7 @@ li {
 }
 
 .highlight-box {
-  background-color: @primary-color-lighter;
+  background-color: @highlight-background;
   padding: 20px;
   margin-bottom: 20px;
 }
