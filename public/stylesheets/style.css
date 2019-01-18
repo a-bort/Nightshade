@@ -93,6 +93,9 @@ li {
 .mobile-only {
   display: block;
 }
+.mobile-hidden {
+  display: none;
+}
 .push-sm {
   margin-bottom: 10px;
 }
@@ -123,11 +126,18 @@ li {
   float: left;
   margin-right: 10px;
 }
+.right-image {
+  float: right;
+  margin-left: 10px;
+}
 .backstory-image {
   max-width: 275px;
 }
 .personal-image {
   max-width: 225px;
+}
+.values-image {
+  max-width: 150px;
 }
 .services-image {
   max-width: 200px;
@@ -275,6 +285,21 @@ li {
 .highlight-box h4 {
   font-variant: normal;
 }
+.page-content a.list-group-item {
+  text-decoration: none !important;
+}
+.page-content a.list-group-item:hover,
+.page-content a.list-group-item:focus {
+  color: #176189;
+}
+.page-content a.list-group-item.active {
+  background-color: #176189;
+  border-color: #176189;
+}
+.page-content a.list-group-item.active:hover,
+.page-content a.list-group-item.active:focus {
+  color: #FFFFFF;
+}
 .ig-scroller {
   width: 100%;
   padding-top: 10px;
@@ -315,6 +340,10 @@ hr {
   border-left: 1px solid;
   padding-left: 10px;
 }
+.parchment {
+  background-image: url("../images/parchment.jpg");
+  background-repeat: repeat;
+}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -341,9 +370,6 @@ hr {
     border: 2px solid #c59cf0;
     border-top: none;
     border-radius: 0px;
-  }
-  .mobile-only {
-    display: none;
   }
   /* We can align the menu header to the left, but float the
     menu items to the right. */
@@ -377,11 +403,25 @@ hr {
   .left-image {
     margin-right: 15px;
   }
+  .right-image {
+    margin-left: 15px;
+  }
   .backstory-image {
     max-width: 350px;
   }
   .personal-image {
     max-width: 300px;
+  }
+  .values-image {
+    max-width: 150px;
+  }
+}
+@media (min-width: 62em) {
+  .mobile-only {
+    display: none;
+  }
+  .mobile-hidden {
+    display: block;
   }
 }
 /*

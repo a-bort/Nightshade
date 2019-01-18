@@ -3,19 +3,113 @@
   <% include partials/head %>
   <body>
     <% include partials/header %>
-
+    <script type="text/javascript" src="/javascripts/values.js"></script>
     <div class="page-content">
       <div class="container">
         <div class="row">
-          <div class="col-sm-5">
-            <div class="row content-box">
+          <div class="col-md-3">
+            <div class="list-group mobile-hidden" id="value-list" role="tablist">
+              <a class="list-group-item active" data-toggle="list" href="#flavor-aroma" role="tab">
+                Flavor & Aroma
+              </a>
+              <a class="list-group-item" data-toggle="list" href="#health-nutrition" role="tab">
+                Health & Nutrition
+              </a>
+              <a class="list-group-item" data-toggle="list" href="#beauty-serenity" role="tab">
+                Beauty & Serenity
+              </a>
+              <a class="list-group-item" data-toggle="list" href="#nature-sustainability" role="tab">
+                Nature & Sustainability
+              </a>
+              <a class="list-group-item" data-toggle="list" href="#empowerment-independence" role="tab">
+                Empowerment & Independence
+              </a>
+            </div>
+            <div class="content-box highlight-box">
               <h3>Our Values</h3>
-              <p>We strive to uphold our values...in our personal lives and in our business. These are the values our business is built around. </p> <!--For a deeper dive, check out our <a href="manifesto.html">manifesto</a>.-->
-              <p></p><!--for spacing-->
-              <img src="./images/cocktails.jpg" class="center-image" style="max-width: 300px;"/>
+              <p>We strive to uphold our values...in our personal lives and in our business. These are the values our business is built around. For a deeper dive, check out our <a href="manifesto.html">manifesto</a>.</p>
             </div>
           </div>
-          <div class="col-sm-7">
+          <div class="col-md-9">
+            <div class="tab-content mobile-hidden">
+              <div class="tab-pane content-box active" id="flavor-aroma" role="tabpanel">
+                <h3>Flavor & Aroma</h3>
+                <img class="right-image values-image" src="./images/basil.jpg" />
+                <p>
+                  Do you want to smell ridiculously amazing smells single every day of your life? Us too. Fresh, homegrown herbs and produce help bring out the full potential in the dishes and drinks you work so hard to create. Enjoy impossibly fresh ingredients that blow the grocery store’s packaged crap out of the water.
+                </p>
+              </div>
+              <div class="tab-pane content-box" id="health-nutrition" role="tabpanel" >
+                <h3>Health & Nutrition</h3>
+                <img class="right-image values-image" src="./images/bloody_dock.jpg" />
+                <p>
+                  We give our plants multi-vitamins. Sort of. Did you know that adding trace minerals into the soil provides plants with all of the micro-nutrients they need to create a plethora of vitamins, minerals, and best of all, those glorious aromatic flavor compounds. Supermarket produce doesn’t come close in terms of nutrient density, even the fancy “organic” stuff.
+                </p>
+              </div>
+              <div class="tab-pane content-box" id="beauty-serenity" role="tabpanel" >
+                <h3>Beauty & Serenity</h3>
+                <img class="right-image values-image" src="./images/passiflora.jpg" />
+                <p>
+                  Fact: Nature is utterly gorgeous. It also provides an amazing getaway from the stress and anxiety that can occasionally get the best of us all. Time and time again, science has shown the multitude of benefits of spending time in nature!
+                </p>
+              </div>
+              <div class="tab-pane content-box" id="nature-sustainability" role="tabpanel" >
+                <h3>Nature & Sustainability</h3>
+                <img class="right-image values-image" src="./images/catnip.jpg" />
+                <p>
+                  Buzzkill: The leading cause of biodiversity loss is habitat destruction and degradation. In addition to providing produce to you, our landscapes aim to create habitat and forage for birds, pollinators, and other beneficial critters. Your plants will provide a safe haven for life to flourish. You’ll also be mitigating soil loss, reducing runoff, and lowering your fossil fuel footprint.
+                </p>
+              </div>
+              <div class="tab-pane content-box" id="empowerment-independence" role="tabpanel" >
+                <h3>Empowerment & Independence</h3>
+                <img class="right-image values-image" src="./images/greens.jpg" />
+                <p>
+                  We believe that the ability to provide you and your loved ones with an essential human need is a preeeetty important life skill. We’ll get back to you when we figure out how to produce air and water (right after giving our Nobel Prize acceptance speech). Let us give you a kick start on your way to more liberty and less reliance on corporations and industrialized agriculture. We encourage everyone to become a more self-sufficient member of society and this planet!
+                </p>
+              </div>
+            </div>
+            <div class="mobile-only">
+              <div class="content-box">
+                <h3>Flavor & Aroma</h3>
+                <p>
+                  Do you want to smell ridiculously amazing smells single every day of your life? Us too. Fresh, homegrown herbs and produce help bring out the full potential in the dishes and drinks you work so hard to create. Enjoy impossibly fresh ingredients that blow the grocery store’s packaged crap out of the water.
+                </p>
+              </div>
+              <div class="content-box">
+                <h3>Health & Nutrition</h3>
+                <p>
+                  We give our plants multi-vitamins. Sort of. Did you know that adding trace minerals into the soil provides plants with all of the micro-nutrients they need to create a plethora of vitamins, minerals, and best of all, those glorious aromatic flavor compounds. Supermarket produce doesn’t come close in terms of nutrient density, even the fancy “organic” stuff.
+                </p>
+              </div>
+              <div class="content-box">
+                <h3>Beauty & Serenity</h3>
+                <p>
+                  Fact: Nature is utterly gorgeous. It also provides an amazing getaway from the stress and anxiety that can occasionally get the best of us all. Time and time again, science has shown the multitude of benefits of spending time in nature!
+                </p>
+              </div>
+              <div class="content-box">
+                <h3>Nature & Sustainability</h3>
+                <p>
+                  Buzzkill: The leading cause of biodiversity loss is habitat destruction and degradation. In addition to providing produce to you, our landscapes aim to create habitat and forage for birds, pollinators, and other beneficial critters. Your plants will provide a safe haven for life to flourish. You’ll also be mitigating soil loss, reducing runoff, and lowering your fossil fuel footprint.
+                </p>
+              </div>
+              <div class="content-box">
+                <h3>Empowerment & Independence</h3>
+                <p>
+                  We believe that the ability to provide you and your loved ones with an essential human need is a preeeetty important life skill. We’ll get back to you when we figure out how to produce air and water (right after giving our Nobel Prize acceptance speech). Let us give you a kick start on your way to more liberty and less reliance on corporations and industrialized agriculture. We encourage everyone to become a more self-sufficient member of society and this planet!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-sm-5">
+            <div class="row content-box">
+              <h3>Our Values</h3>
+              <p>We strive to uphold our values...in our personal lives and in our business. These are the values our business is built around. For a deeper dive, check out our <a href="manifesto.html">manifesto</a>.</p>
+              <p></p>
+              <img src="./images/cocktails.jpg" class="center-image" style="max-width: 300px;"/>
+            </div>
+          </div> -->
+          <!-- <div class="col-sm-7">
             <div class="row content-box" style="padding-top: 10px; padding-bottom: 10px;">
               <button class="header-btn" role="button" data-toggle="collapse" href="#flavor-aroma" aria-expanded="true" aria-controls="flavor-aroma">
                 Flavor & Aroma
@@ -62,7 +156,7 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
