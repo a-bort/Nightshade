@@ -140,7 +140,10 @@ li {
   max-width: 150px;
 }
 .services-image {
-  max-width: 200px;
+  max-width: 150px;
+}
+.contact-image {
+  max-width: 150px;
 }
 .banner {
   background-color: #2C0C4E;
@@ -413,8 +416,14 @@ hr {
   .personal-image {
     max-width: 300px;
   }
+  .services-image {
+    max-width: 200px;
+  }
   .values-image {
-    max-width: 150px;
+    max-width: 250px;
+  }
+  .contact-image {
+    max-width: 300px;
   }
 }
 @media (min-width: 62em) {
