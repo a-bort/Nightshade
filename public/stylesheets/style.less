@@ -192,7 +192,8 @@ li {
 }
 
 .backstory-image {
-  max-width: 275px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .personal-image {
@@ -209,6 +210,10 @@ li {
 
 .contact-image {
   max-width: 150px;
+}
+
+.contact-image-2 {
+  max-width: 400px;
 }
 
 .banner {
@@ -308,21 +313,44 @@ li {
   font-size: 18px;
 }
 
-#jumbotron-image {
-  /*width: 100%;*/
-  border: @thin-border @border-color;
+.headline {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  position: relative;
+}
+
+.splash {
+  position: relative;
+}
+
+.splash-image {
   width: 100%;
-  /*overflow: hidden;*/
+  height: auto;
+  min-height: 325px;
+  background-image: url(../images/spring_bed_color.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
-#jumbotron-container {
-  margin-left: 50px;
-  margin-right: 50px;
-  //border: @thin-border @border-color;
+.splash-image-overlay {
+  color: black;
+  background: #FFFA;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  width: 100%;
 }
 
-#jumbotron-footer {
-  margin-top: 5px;
+.splash-image-text {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #ig-logo {
@@ -478,6 +506,19 @@ hr {
       display: block;
     }
 
+    .headline {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .splash-image {
+      min-height: 500px;
+    }
+
+    .splash-image-text {
+      width: 600px;
+    }
+
     #navbar-override .dropdown-menu {
       border: @thin-border @border-color;
       border-top: none;
@@ -545,7 +586,9 @@ hr {
     }
 
     .contact-image {
-      max-width: 300px;
+      max-width: 200px;
+      margin-left: 30px;
+      margin-bottom: 30px;
     }
 }
 
