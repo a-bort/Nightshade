@@ -136,6 +136,7 @@ li {
 }
 .personal-image {
   max-width: 225px;
+  max-height: 225px;
 }
 .values-image {
   max-width: 150px;
@@ -147,6 +148,7 @@ li {
   max-width: 150px;
 }
 .contact-image-2 {
+  width: 100%;
   max-width: 400px;
 }
 .banner {
@@ -264,6 +266,8 @@ li {
   left: 0%;
   transform: translate(0%, -50%);
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .splash-image-text {
   width: 360px;
@@ -281,9 +285,6 @@ li {
   /*-webkit-box-shadow: @shadow @shadow-color;
   -moz-box-shadow: @shadow @shadow-color;
   box-shadow: @shadow @shadow-color;*/
-}
-.content-box img {
-  width: 100%;
 }
 .content-box h3,
 .content-box h2,
@@ -408,6 +409,10 @@ hr {
   .splash-image-text {
     width: 600px;
   }
+  .splash-image-overlay {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   #navbar-override .dropdown-menu {
     border: 2px solid #c59cf0;
     border-top: none;
@@ -453,6 +458,7 @@ hr {
   }
   .personal-image {
     max-width: 300px;
+    max-height: 300px;
   }
   .services-image {
     max-width: 200px;
