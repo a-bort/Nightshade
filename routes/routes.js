@@ -30,6 +30,18 @@ router.get('/services', function(req, res, next) {
   res.render('services', { title: "Services", pagename: "services" });
 });
 
+router.get('/gardens', function(req, res, next) {
+  res.render('gardens', { title: "Gardens & Edible Landscapes", pagename: "gardens" });
+});
+
+router.get('/events', function(req, res, next) {
+  res.render('events', { title: "Sustainable Feasts", pagename: "events" });
+});
+
+router.get('/products', function(req, res, next) {
+  res.render('products', { title: "Unique Products", pagename: "products" });
+});
+
 router.get('/values', function(req, res, next) {
   res.render('values', { title: "Values", pagename: "values" });
 });
