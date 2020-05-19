@@ -49,6 +49,7 @@ h4 {
   font-family: 'Yatra One', cursive;
 }
 h1 {
+  font-size: 26px;
   margin-top: 0px;
 }
 h3 {
@@ -65,13 +66,13 @@ li {
   text-align: justify;
 }
 .page-content a {
-  color: #333333;
+  color: #2C0C4E;
   text-decoration: underline;
   font-weight: bold;
 }
 .page-content a:hover,
 .page-content a:focus {
-  color: #2b9ddb;
+  color: #E4C634;
 }
 .page-content a.btn {
   text-decoration: none;
@@ -105,6 +106,13 @@ li {
 .push-lg {
   margin-bottom: 30px;
 }
+.dark-links a {
+  color: #333333;
+}
+.dark-links a:hover,
+.dark-links a:focus {
+  color: #5e1aa6;
+}
 .large-p-text {
   font-size: 16px;
 }
@@ -117,6 +125,12 @@ li {
 .btn-lg {
   font-size: 20px;
   margin-bottom: 10px;
+}
+.center-text {
+  text-align: center;
+}
+.accent-text {
+  color: #2C0C4E;
 }
 .center-image {
   margin: auto;
@@ -264,17 +278,43 @@ li {
 }
 .splash-image-overlay {
   color: black;
-  background: #FFFA;
+  background: #FFFE;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 0%;
   transform: translate(0%, -50%);
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 1px solid #c59cf0;
+  border-bottom: 1px solid #c59cf0;
 }
 .splash-image-text {
-  width: 360px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gardens-splash-image {
+  width: 100%;
+  height: auto;
+  min-height: 325px;
+  background-image: url(../images/se_planter_1900_1270.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.gardens-splash-image-overlay {
+  color: black;
+  background: #FFFA;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gardens-splash-image-text {
   margin-left: auto;
   margin-right: auto;
 }
@@ -398,7 +438,7 @@ hr {
     display: none;
   }
   .large-p-text {
-    font-size: 20px;
+    font-size: 22px;
   }
   .banner {
     display: block;
@@ -410,8 +450,11 @@ hr {
   .splash-image {
     min-height: 500px;
   }
+  .gardens-splash-image {
+    min-height: 500px;
+  }
   .splash-image-text {
-    width: 600px;
+    max-width: 700px;
   }
   .splash-image-overlay {
     padding-top: 20px;

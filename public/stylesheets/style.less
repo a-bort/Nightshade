@@ -1,7 +1,9 @@
+@primary-color:         #2C0C4E; //deep purple //#140227;//#310661;//#290895;//#261758;
+
 @background-color:      #FFFFFF;//#000000;
 @text-color-dark:       #333333;
 @text-color-light:      #CCCCCC;
-@primary-color:         #2C0C4E; //deep purple //#140227;//#310661;//#290895;//#261758;
+
 @primary-color-light:   lighten(@primary-color, 20%);
 @primary-color-lighter: lighten(@primary-color, 60%);
 @secondary-color:       #176189;//teal / blue #887CAF;
@@ -14,8 +16,8 @@
 
 @border-color:          @primary-color-lighter;
 @shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
-@link-color:            @text-color-dark;
-@link-color-hover:      @secondary-color-light;
+@link-color:            @primary-color;//@text-color-dark;
+@link-color-hover:      @highlight-color;//@primary-color-light;
 @button-color:          @secondary-color;
 @button-color-hover:    @secondary-color-light;
 @button-text-color:     #FFFFFF;
@@ -93,6 +95,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+  font-size: 26px;
   margin-top: 0px;
 }
 
@@ -159,6 +162,13 @@ li {
   margin-bottom: 30px;
 }
 
+.dark-links a {
+  color: @text-color-dark;
+  &:hover, &:focus {
+    color: @primary-color-light;
+  }
+}
+
 .large-p-text {
   font-size: 16px;
 }
@@ -174,6 +184,14 @@ li {
 .btn-lg {
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.accent-text {
+  color: @primary-color;
 }
 
 .center-image {
@@ -347,18 +365,47 @@ li {
 
 .splash-image-overlay {
   color: black;
-  background: #FFFA;
+  background: #FFFE;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 0%;
   transform: translate(0%, -50%);
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 1px solid @border-color;
+  border-bottom: 1px solid @border-color;
 }
 
 .splash-image-text {
-  width: 360px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gardens-splash-image {
+  width: 100%;
+  height: auto;
+  min-height: 325px;
+  background-image: url(../images/se_planter_1900_1270.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.gardens-splash-image-overlay {
+  color: black;
+  background: #FFFA;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gardens-splash-image-text {
   margin-left: auto;
   margin-right: auto;
 }
@@ -513,7 +560,7 @@ hr {
     }
 
     .large-p-text {
-      font-size: 20px;
+      font-size: 22px;
     }
 
     .banner {
@@ -529,8 +576,12 @@ hr {
       min-height: 500px;
     }
 
+    .gardens-splash-image {
+      min-height: 500px;
+    }
+
     .splash-image-text {
-      width: 600px;
+      max-width: 700px;
     }
 
     .splash-image-overlay {
