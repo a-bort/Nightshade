@@ -280,7 +280,7 @@ li {
   color: black;
   background: #FFFE;
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 0%;
   transform: translate(0%, -50%);
   width: 100%;
@@ -317,6 +317,16 @@ li {
 .gardens-splash-image-text {
   margin-left: auto;
   margin-right: auto;
+}
+.contact-splash-image {
+  width: 100%;
+  height: auto;
+  min-height: 325px;
+  background-image: url(../images/cocktails_1140_875.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 #ig-logo {
   width: 24px;
@@ -457,6 +467,7 @@ hr {
     max-width: 700px;
   }
   .splash-image-overlay {
+    top: 25%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
