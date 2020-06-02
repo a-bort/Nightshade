@@ -130,7 +130,8 @@ li {
   text-align: center;
 }
 .accent-text {
-  color: #2C0C4E;
+  padding: 10px 16px 10px 16px;
+  font-size: 18px;
 }
 .center-image {
   margin: auto;
@@ -168,6 +169,16 @@ li {
 .h2-image {
   float: none;
   width: 100%;
+}
+.manifesto-quote-block {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+.manifesto-quote {
+  font-style: italic;
+  font-weight: bold;
 }
 .banner {
   background-color: #2C0C4E;
@@ -534,6 +545,11 @@ hr {
     padding-top: 20px;
     padding-bottom: 10px;
     width: auto;
+  }
+  .manifesto-quote-block {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 22px;
   }
 }
 @media (min-width: 62em) {
