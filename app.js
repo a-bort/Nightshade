@@ -9,6 +9,9 @@ var routes = require('./routes/routes');
 
 var app = express();
 
+//env setup
+dotenv = require('dotenv').config();
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -51,4 +54,4 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
-console.log("Nightshade Website running");
+console.log("Nightshade Website running in the " + process.env.ENV + " environment");
