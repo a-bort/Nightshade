@@ -42,6 +42,10 @@ router.get('/products', function(req, res, next) {
   res.render('products', { title: "Unique Products", pagename: "products" });
 });
 
+router.get('/order', function(req, res, next) {
+  res.render('order', { title: "Unique Products", pagename: "products" });
+});
+
 router.get('/values', function(req, res, next) {
   res.render('values', { title: "Values", pagename: "values" });
 });
