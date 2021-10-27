@@ -65,6 +65,12 @@ p {
 li {
   text-align: justify;
 }
+a.strong {
+  text-transform: uppercase;
+}
+.emphasize {
+  text-decoration: underline;
+}
 .page-content a {
   color: #2C0C4E;
   text-decoration: underline;
