@@ -2,25 +2,25 @@
   {
     "name": "Bort and Squash",
     "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
-    "image": "bort_squash.jpg",
+    "image": "bort_squash_300_400.jpg",
     "align": "v"
   },
   {
     "name": "Patio Container Garden",
     "description": "This urban patio has been packed to the brim with plants, strategically placed to maximize lighting and plant happiness.",
-    "image": "patio_rack.jpg",
+    "image": "patio_rack_400_300.jpg",
     "align": "h"
   },
   {
     "name": "Deck Planter",
     "description": "Large custom built planters adorn this suburban deck, which hosts a mix of perennial herbs, lettuces, and pollinator-friendly species.",
-    "image": "deck_planter.jpg",
+    "image": "deck_planter_400_300.jpg",
     "align": "h"
   },
   {
     "name": "Urban Pollinator Garden",
     "description": "This parially barren and trash-filled urban plot transformed into a lush, pollinator friendly oasis in less than a year!",
-    "image": "urban_pollinator_garden.jpg",
+    "image": "urban_pollinator_garden_400_300.jpg",
     "align": "h"
   }
 ]
