@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var plantsJson = require('../data/plants.json');
+var galleryJson = require('../data/gallery.json');
 
 router.get('/', function(req, res, next) {
   res.render('index', { title: "", pagename: "index" });
@@ -22,12 +22,16 @@ router.get('/manifesto', function(req, res, next) {
   res.render('manifesto', { title: "Manifesto", pagename: "manifesto" });
 });
 
-router.get('/plants', function(req, res, next) {
-  res.render('plants', { title: "Badass Plants", pagename: "plants", plants: plantsJson });
+router.get('/gallery', function(req, res, next) {
+  res.render('gallery', { title: "Gallery of our Projects", pagename: "gallery", gallery: galleryJson });
 });
 
 router.get('/services', function(req, res, next) {
   res.render('services', { title: "Services", pagename: "services" });
+});
+
+router.get('/book', function(req, res, next) {
+  res.render('book', { title: "Book Us", pagename: "book" });
 });
 
 router.get('/gardens', function(req, res, next) {
@@ -43,7 +47,7 @@ router.get('/products', function(req, res, next) {
 });
 
 router.get('/order', function(req, res, next) {
-  res.render('order', { title: "Unique Products", pagename: "products" });
+  res.render('order', { title: "Order", pagename: "products" });
 });
 
 router.get('/values', function(req, res, next) {

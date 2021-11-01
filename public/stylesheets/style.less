@@ -13,6 +13,7 @@
 
 @highlight-color:       #E4C634;//canary yellow
 @highlight-background:  #E0CFF3;//light lavender
+@highlight-background-alt:  #F9F9F9;//off white
 
 @border-color:          @primary-color-lighter;
 @shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
@@ -245,6 +246,18 @@ a.strong {
   max-width: 400px;
 }
 
+.gallery-image-v {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.gallery-image-h {
+  max-height: 300px;
+  display: block;
+  margin: auto;
+}
+
 .h2-image {
   float: none;
   width: 100%;
@@ -375,7 +388,7 @@ a.strong {
 .splash-image {
   width: 100%;
   height: auto;
-  min-height: 325px;
+  min-height: 275px;
   background-image: url(../images/spring_bed_color.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -406,7 +419,7 @@ a.strong {
 .gardens-splash-image {
   width: 100%;
   height: auto;
-  min-height: 325px;
+  min-height: 275px;
   background-image: url(../images/se_planter_1900_1270.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -433,7 +446,7 @@ a.strong {
 .contact-splash-image {
   width: 100%;
   height: auto;
-  min-height: 325px;
+  min-height: 275px;
   background-image: url(../images/cocktails_1140_875.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -493,6 +506,14 @@ a.strong {
 
 .highlight-box h4 {
   font-variant: normal;
+}
+
+.highlight-box-alt{
+  background-color: @highlight-background-alt !important;
+  border: 1px solid @highlight-background;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: @highlight-background 2px 2px;
 }
 
 .page-content a.list-group-item {
@@ -608,7 +629,7 @@ hr {
     }
 
     .gardens-splash-image {
-      min-height: 500px;
+      min-height: 300px;
     }
 
     .splash-image-text {
