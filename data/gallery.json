@@ -1,26 +1,82 @@
 [
   {
-    "name": "Bort and Squash",
-    "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
-    "image": "bort_squash_300_400.jpg",
-    "align": "v"
+    "name": "Takoma Shade Garden",
+    "description": "",
+    "image": "takoma_shade_garden_400_300.jpg"
   },
   {
     "name": "Patio Container Garden",
     "description": "This urban patio has been packed to the brim with plants, strategically placed to maximize lighting and plant happiness.",
-    "image": "patio_rack_400_300.jpg",
-    "align": "h"
+    "image": "patio_rack_400_300.jpg"
   },
   {
     "name": "Deck Planter",
     "description": "Large custom built planters adorn this suburban deck, which hosts a mix of perennial herbs, lettuces, and pollinator-friendly species.",
-    "image": "deck_planter_400_300.jpg",
-    "align": "h"
+    "image": "deck_planter_2_400_300.jpg"
   },
   {
     "name": "Urban Pollinator Garden",
-    "description": "This parially barren and trash-filled urban plot transformed into a lush, pollinator friendly oasis in less than a year!",
-    "image": "urban_pollinator_garden_400_300.jpg",
-    "align": "h"
+    "description": "This parially barren urban plot transformed into a lush, pollinator friendly oasis in less than a year!",
+    "image": "urban_pollinator_garden_400_300.jpg"
+  },
+  {
+    "name": "Hometsead Frontyard",
+    "description": "",
+    "image": "homestead_frontyard_400_300.jpg"
+  },
+  {
+    "name": "Alexandria Backyard",
+    "description": "",
+    "image": "alan_backyard_400_233.jpg"
+  },
+  {
+    "name": "Bort and Squash",
+    "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
+    "image": "bort_squashed_300_400.jpg"
+  },
+  {
+    "name": "Tomato Rainbow",
+    "description": "Tomatoes ripening on the vine",
+    "image": "tomato_rainbow_300_400.jpg"
+  },
+  {
+    "name": "Raised Beds in Takoma Park",
+    "description": "These customer built raised beds provide an amazing growing environments for fruits and veggies.",
+    "image": "takoma_raised_beds_400_300.jpg"
+  },
+  {
+    "name": "Spring Harvest",
+    "description": "",
+    "image": "spring_harvest_300_400.jpg"
+  },
+  {
+    "name": "Salad Garden on the Homestead",
+    "description": "",
+    "image": "salad_garden_400_300.jpg"
+  },
+  {
+    "name": "Salad Garden in Silver Spring",
+    "description": "",
+    "image": "salad_garden_2_300_400.jpg"
+  },
+  {
+    "name": "Echinacea",
+    "description": "",
+    "image": "echinacea_300_400.jpg"
+  },
+  {
+    "name": "Aster",
+    "description": "",
+    "image": "aster_400_300.jpg"
+  },
+  {
+    "name": "Pollinator Garden",
+    "description": "",
+    "image": "pollinator_garden_400_300.jpg"
+  },
+  {
+    "name": "Homestead Install",
+    "description": "",
+    "image": "homestead_install_400_300.jpg"
   }
 ]

@@ -172,13 +172,9 @@ a.strong {
   width: 100%;
   max-width: 400px;
 }
-.gallery-image-v {
-  max-width: 300px;
-  display: block;
-  margin: auto;
-}
-.gallery-image-h {
-  max-height: 300px;
+.gallery-image {
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: auto;
 }

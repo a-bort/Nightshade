@@ -12,14 +12,14 @@
                 <% if(i+j < gallery.length){%>
                 <div class="col-sm-6">
                   <div class="content-box">
-                    <img class="gallery-image-<%=gallery[i+j].align%>" src="/images/<%=gallery[i+j].image%>" alt="<%= gallery[i+j].name %>" />
+                    <img class="gallery-image" src="/images/<%=gallery[i+j].image%>" alt="<%= gallery[i+j].name %>" />
                   </div>
                 </div>
                 <% } %>
               <% } %>
             </div>
         <%}%>
-        <div class="row">
+        <div class="row hidden">
           <div class="col-lg-12">
             <div class="content-box">
               <h4>More Coming Soon...</h4>
