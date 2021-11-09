@@ -165,9 +165,6 @@ a.strong {
 .services-image {
   max-width: 150px;
 }
-.contact-image {
-  max-width: 150px;
-}
 .contact-image-2 {
   width: 100%;
   max-width: 400px;
@@ -293,7 +290,7 @@ a.strong {
   width: 100%;
   height: auto;
   min-height: 275px;
-  background-image: url(../images/spring_bed_color.jpg);
+  background-image: url(../images/salad_garden.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -553,11 +550,6 @@ hr {
   }
   .values-image {
     max-width: 250px;
-  }
-  .contact-image {
-    max-width: 200px;
-    margin-left: 30px;
-    margin-bottom: 30px;
   }
   .h2-image {
     float: right;
