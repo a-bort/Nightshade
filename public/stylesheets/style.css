@@ -165,6 +165,9 @@ a.strong {
 .services-image {
   max-width: 150px;
 }
+.contact-image {
+  max-width: 150px;
+}
 .contact-image-2 {
   width: 100%;
   max-width: 400px;
@@ -550,6 +553,11 @@ hr {
   }
   .values-image {
     max-width: 250px;
+  }
+  .contact-image {
+    max-width: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
   }
   .h2-image {
     float: right;
