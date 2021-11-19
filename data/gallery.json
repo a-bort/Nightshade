@@ -20,7 +20,7 @@
     "image": "urban_pollinator_garden_400_300.jpg"
   },
   {
-    "name": "Hometsead Frontyard",
+    "name": "Homestead Frontyard",
     "description": "",
     "image": "homestead_frontyard_400_300.jpg"
   },
@@ -73,5 +73,10 @@
     "name": "Homestead Install",
     "description": "",
     "image": "homestead_install_400_300.jpg"
+  },
+  {
+    "name": "Raspberry Trellises",
+    "description": "",
+    "image": "raspberry_trellises_400_300.jpg"
   }
 ]
