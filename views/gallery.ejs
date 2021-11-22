@@ -3,7 +3,9 @@
   <%- include('partials/head', {photoswipe: true}); %>
   <body>
     <% include partials/header %>
-
+    <script type="text/javascript">
+      window.galleryJson = <%-JSON.stringify(gallery)%>;
+    </script>
     <div class="page-content">
       <div class="container">
         <% for(var i = 0; i < gallery.length; i+=2){%>
@@ -12,7 +14,9 @@
                 <% if(i+j < gallery.length){%>
                 <div class="col-sm-6">
                   <div class="content-box">
-                    <img class="gallery-image" src="/images/<%=gallery[i+j].image%>" alt="<%= gallery[i+j].name %>" />
+                    <a class="gallery-link" href="/#" data-index="<%=i+j%>">
+                      <img class="gallery-image" src="<%=gallery[i+j].msrc%>" alt="<%= gallery[i+j].title %>"/>
+                    </a>
                   </div>
                 </div>
                 <% } %>

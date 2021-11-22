@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Takoma Shade Garden",
+    "description": "",
+    "src": "/images/takoma_shade_garden_1200_900.jpg",
+    "msrc": "/images/takoma_shade_garden_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Patio Container Garden",
+    "description": "This urban patio has been packed to the brim with plants, strategically placed to maximize lighting and plant happiness.",
+    "src": "/images/patio_rack_1200_900.jpg",
+    "msrc": "/images/patio_rack_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Deck Planter",
+    "description": "Large custom built planters adorn this suburban deck, which hosts a mix of perennial herbs, lettuces, and pollinator-friendly species.",
+    "src": "/images/deck_planter_2_1200_900.jpg",
+    "msrc": "/images/deck_planter_2_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Urban Pollinator Garden",
+    "description": "This parially barren urban plot transformed into a lush, pollinator friendly oasis in less than a year!",
+    "src": "/images/urban_pollinator_garden_1200_900.jpg",
+    "msrc": "/images/urban_pollinator_garden_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Homestead Frontyard",
+    "description": "",
+    "src": "/images/homestead_frontyard_1200_900.jpg",
+    "msrc": "/images/homestead_frontyard_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Alexandria Backyard",
+    "description": "",
+    "src": "/images/alan_backyard_1200_700.jpg",
+    "msrc": "/images/alan_backyard_400_233.jpg",
+    "w": "1200",
+    "h": "700"
+  },
+  {
+    "title": "Bort and Squash",
+    "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
+    "src": "/images/bort_squashed_900_1200.jpg",
+    "msrc": "/images/bort_squashed_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Tomato Rainbow",
+    "description": "Tomatoes ripening on the vine",
+    "src": "/images/tomato_rainbow_900_1200.jpg",
+    "msrc": "/images/tomato_rainbow_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Raised Beds in Takoma Park",
+    "description": "These customer built raised beds provide an amazing growing environments for fruits and veggies.",
+    "src": "/images/takoma_raised_beds_1200_900.jpg",
+    "msrc": "/images/takoma_raised_beds_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Spring Harvest",
+    "description": "",
+    "src": "/images/spring_harvest_900_1200.jpg",
+    "msrc": "/images/spring_harvest_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Salad Garden in Silver Spring",
+    "description": "",
+    "src": "/images/salad_garden_2_900_1200.jpg",
+    "msrc": "/images/salad_garden_2_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Echinacea",
+    "description": "",
+    "src": "/images/echinacea_900_1200.jpg",
+    "msrc": "/images/echinacea_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Aster",
+    "description": "",
+    "src": "/images/aster_1200_900.jpg",
+    "msrc": "/images/aster_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Pollinator Garden",
+    "description": "",
+    "src": "/images/pollinator_garden_1200_900.jpg",
+    "msrc": "/images/pollinator_garden_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Homestead Install",
+    "description": "",
+    "src": "/images/homestead_install_1200_900.jpg",
+    "msrc": "/images/homestead_install_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Raspberry Trellises",
+    "description": "",
+    "src": "/images/raspberry_trellises_1200_900.jpg",
+    "msrc": "/images/raspberry_trellises_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  }
+]

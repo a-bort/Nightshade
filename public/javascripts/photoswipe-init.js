@@ -1,26 +1,26 @@
-var pswpElement = document.querySelectorAll('.pswp')[0];
+var openPhotoSwipe = function(i){
+  var pswpElement = document.querySelectorAll('.pswp')[0];
 
-// build items array
-var items = [
-    {
-        src: 'https://placekitten.com/600/400',
-        w: 600,
-        h: 400
-    },
-    {
-        src: 'https://placekitten.com/1200/900',
-        w: 1200,
-        h: 900
-    }
-];
+  // build items array
+  var items = window.galleryJson; // defined in the gallery ejs file
 
-// define options (if needed)
-var options = {
-    // optionName: 'option value'
-    // for example:
-    index: 0 // start at first slide
+  // define options (if needed)
+  var options = {
+      // optionName: 'option value'
+      // for example:
+      index: i
+  };
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  // Initializes and opens PhotoSwipe
+  gallery.init();
 };
 
-// Initializes and opens PhotoSwipe
-var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-gallery.init();
+//openPhotoSwipe();
+
+$("a.gallery-link").on("click", function(e){
+  e.preventDefault();
+  var index = parseInt($(e.currentTarget).attr("data-index"));
+  console.log(index);
+
+  openPhotoSwipe(index);
+});
