@@ -27,7 +27,7 @@ router.get('/gallery', function(req, res, next) {
 });
 
 router.get('/services', function(req, res, next) {
-  res.render('services', { title: "Services", pagename: "services" });
+  res.render('gardens-old', { title: "Gardens", pagename: "gardens" });
 });
 
 router.get('/book', function(req, res, next) {
