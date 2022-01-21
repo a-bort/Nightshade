@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var galleryJson = require('../data/gallery.json');
+var galleryJson = require('../public/data/gallery.json');
 
 router.get('/', function(req, res, next) {
   res.render('index', { title: "", pagename: "index" });
@@ -23,11 +23,11 @@ router.get('/manifesto', function(req, res, next) {
 });
 
 router.get('/gallery', function(req, res, next) {
-  res.render('gallery', { title: "Gallery of our Projects", pagename: "gallery", gallery: galleryJson });
+  res.render('gallery', { title: "Gallery of our Projects", pagename: "gallery", gallery: galleryJson});
 });
 
 router.get('/services', function(req, res, next) {
-  res.render('services', { title: "Services", pagename: "services" });
+  res.render('gardens-old', { title: "Gardens", pagename: "gardens" });
 });
 
 router.get('/book', function(req, res, next) {
