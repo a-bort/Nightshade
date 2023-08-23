@@ -1,5 +1,21 @@
 [
   {
+    "title": "Fall Garden",
+    "description": "A fall Garden featuring Black-eyed Susan",
+    "src": "/images/susan_1200_900.jpg",
+    "msrc": "/images/susan_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Caterpillar",
+    "description": "A Monarch caterpillar feasting on Butterfly weed",
+    "src": "/images/monarch_1200_900.jpg",
+    "msrc": "/images/monarch_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
     "title": "Takoma Shade Garden",
     "description": "",
     "src": "/images/takoma_shade_garden_1200_900.jpg",
@@ -62,6 +78,22 @@
     "msrc": "/images/tomato_rainbow_300_400.jpg",
     "w": "900",
     "h": "1200"
+  },
+  {
+    "title": "Itea",
+    "description": "Itea virginica, about to bloom",
+    "src": "/images/itea_900_1200.jpg",
+    "msrc": "/images/itea_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Sunny Patch",
+    "description": "A sunny patch in a shaded backyard provides a nice habitat for a variety of species, plant and fungus",
+    "src": "/images/mushroom_1200_900.jpg",
+    "msrc": "/images/mushroom_400_300.jpg",
+    "w": "1200",
+    "h": "900"
   },
   {
     "title": "Raised Beds in Takoma Park",
