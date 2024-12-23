@@ -26,8 +26,8 @@ html {
   height: 65px;
   line-height: 60px;
   /* Vertically center the text there */
-  background-color: #2C0C4E;
-  border-top: 2px solid #c59cf0;
+  background-color: #442169;
+  border-top: 2px solid #decdef;
 }
 .right {
   float: right;
@@ -72,7 +72,7 @@ a.strong {
   text-decoration: underline;
 }
 .page-content a {
-  color: #2C0C4E;
+  color: #442169;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -117,7 +117,7 @@ a.strong {
 }
 .dark-links a:hover,
 .dark-links a:focus {
-  color: #5e1aa6;
+  color: #7639b7;
 }
 .large-p-text {
   font-size: 16px;
@@ -193,7 +193,7 @@ a.strong {
   font-weight: bold;
 }
 .banner {
-  background-color: #2C0C4E;
+  background-color: #442169;
   color: #CCCCCC;
   font-family: 'Yatra One', cursive;
   display: none;
@@ -201,7 +201,7 @@ a.strong {
 .banner-head {
   font-size: 58px;
   line-height: 28px;
-  padding-top: 30px;
+  padding-top: 15px;
   font-variant: small-caps;
 }
 .banner-subhead {
@@ -212,6 +212,9 @@ a.strong {
   text-decoration: none;
   color: #CCCCCC;
 }
+.navbar {
+  margin-bottom: 0px;
+}
 .navbar .navbar-collapse {
   text-align: center;
 }
@@ -221,9 +224,9 @@ a.strong {
   vertical-align: top;
 }
 .navbar-default {
-  background-color: #2C0C4E;
+  background-color: #442169;
   border: 0;
-  border-bottom: 2px solid #c59cf0;
+  border-bottom: 2px solid #decdef;
   border-radius: 0;
 }
 .navbar-default .navbar-nav > li > a {
@@ -237,7 +240,7 @@ a.strong {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #CCCCCC;
-  background-color: #2C0C4E;
+  background-color: #442169;
   text-decoration: underline;
   text-decoration-color: #E4C634;
 }
@@ -245,10 +248,10 @@ a.strong {
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
   color: #CCCCCC;
-  background-color: #2C0C4E;
+  background-color: #442169;
 }
 #navbar-override .dropdown-menu {
-  background-color: #2C0C4E;
+  background-color: #442169;
 }
 #navbar-override .dropdown-menu > li > a {
   color: #CCCCCC;
@@ -259,7 +262,7 @@ a.strong {
 #navbar-override .dropdown-menu > li > a:hover,
 #navbar-override .dropdown-menu > .active > a {
   color: #CCCCCC;
-  background-color: #2C0C4E;
+  background-color: #442169;
   text-decoration: underline;
   text-decoration-color: #E4C634;
 }
@@ -309,8 +312,8 @@ a.strong {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 1px solid #c59cf0;
-  border-bottom: 1px solid #c59cf0;
+  border-top: 1px solid #decdef;
+  border-bottom: 1px solid #decdef;
 }
 .splash-image-text {
   max-width: 650px;
@@ -444,7 +447,7 @@ hr.header-border {
   margin-bottom: 0px;
 }
 hr {
-  border-top: 1px solid #c59cf0;
+  border-top: 1px solid #decdef;
 }
 .contact-type {
   padding-right: 10px;
@@ -503,7 +506,7 @@ hr {
     padding-bottom: 20px;
   }
   #navbar-override .dropdown-menu {
-    border: 2px solid #c59cf0;
+    border: 2px solid #decdef;
     border-top: none;
     border-radius: 0px;
   }
