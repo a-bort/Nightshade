@@ -71,6 +71,10 @@ a.strong {
 .emphasize {
   text-decoration: underline;
 }
+.box-title {
+  font-variant: small-caps;
+  font-size: 18px;
+}
 .page-content a {
   color: #442169;
   text-decoration: underline;
@@ -295,23 +299,22 @@ a.strong {
 .splash-image {
   width: 100%;
   height: auto;
-  min-height: 275px;
-  background-image: url(../images/salad_garden_mobile.jpg);
+  min-height: 400px;
+  background-image: url(../images/fall_color_1200_900.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: left;
 }
 .splash-image-overlay {
   color: black;
-  background: #FFFE;
+  background: #FFFD;
   position: absolute;
-  top: 35%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  top: 20%;
+  left: 5%;
+  /*transform: translate(0%, -50%);*/
+  width: 45%;
+  padding: 10px;
   border-top: 1px solid #decdef;
   border-bottom: 1px solid #decdef;
 }
@@ -491,8 +494,8 @@ hr {
     margin-bottom: 30px;
   }
   .splash-image {
-    min-height: 500px;
-    background-image: url(../images/salad_garden.jpg);
+    min-height: 600px;
+    background-image: url(../images/fall_color_1200_900.png);
   }
   .gardens-splash-image {
     min-height: 300px;
@@ -501,9 +504,10 @@ hr {
     max-width: 700px;
   }
   .splash-image-overlay {
-    top: 25%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    top: 15%;
+    width: 35%;
+    /*padding-top: 20px;
+      padding-bottom: 20px;*/
   }
   #navbar-override .dropdown-menu {
     border: 2px solid #decdef;
@@ -581,6 +585,9 @@ hr {
   }
   .mobile-hidden {
     display: block;
+  }
+  .splash-image-overlay {
+    width: 25%;
   }
 }
 /*
