@@ -26,8 +26,8 @@ html {
   height: 65px;
   line-height: 60px;
   /* Vertically center the text there */
-  background-color: #442169;
-  border-top: 2px solid #decdef;
+  background-color: #2C0C4E;
+  border-top: 2px solid #c59cf0;
 }
 .right {
   float: right;
@@ -76,7 +76,7 @@ a.strong {
   font-size: 18px;
 }
 .page-content a {
-  color: #442169;
+  color: #2C0C4E;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -121,7 +121,7 @@ a.strong {
 }
 .dark-links a:hover,
 .dark-links a:focus {
-  color: #7639b7;
+  color: #5e1aa6;
 }
 .large-p-text {
   font-size: 16px;
@@ -197,7 +197,7 @@ a.strong {
   font-weight: bold;
 }
 .banner {
-  background-color: #442169;
+  background-color: #2C0C4E;
   color: #CCCCCC;
   font-family: 'Yatra One', cursive;
   display: none;
@@ -228,9 +228,9 @@ a.strong {
   vertical-align: top;
 }
 .navbar-default {
-  background-color: #442169;
+  background-color: #2C0C4E;
   border: 0;
-  border-bottom: 2px solid #decdef;
+  border-bottom: 2px solid #c59cf0;
   border-radius: 0;
 }
 .navbar-default .navbar-nav > li > a {
@@ -244,7 +244,7 @@ a.strong {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #CCCCCC;
-  background-color: #442169;
+  background-color: #2C0C4E;
   text-decoration: underline;
   text-decoration-color: #E4C634;
 }
@@ -252,10 +252,10 @@ a.strong {
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
   color: #CCCCCC;
-  background-color: #442169;
+  background-color: #2C0C4E;
 }
 #navbar-override .dropdown-menu {
-  background-color: #442169;
+  background-color: #2C0C4E;
 }
 #navbar-override .dropdown-menu > li > a {
   color: #CCCCCC;
@@ -266,7 +266,7 @@ a.strong {
 #navbar-override .dropdown-menu > li > a:hover,
 #navbar-override .dropdown-menu > .active > a {
   color: #CCCCCC;
-  background-color: #442169;
+  background-color: #2C0C4E;
   text-decoration: underline;
   text-decoration-color: #E4C634;
 }
@@ -315,8 +315,8 @@ a.strong {
   /*transform: translate(0%, -50%);*/
   width: 45%;
   padding: 10px;
-  border-top: 1px solid #decdef;
-  border-bottom: 1px solid #decdef;
+  border-top: 1px solid #c59cf0;
+  border-bottom: 1px solid #c59cf0;
 }
 .splash-image-text {
   max-width: 650px;
@@ -450,7 +450,7 @@ hr.header-border {
   margin-bottom: 0px;
 }
 hr {
-  border-top: 1px solid #decdef;
+  border-top: 1px solid #c59cf0;
 }
 .contact-type {
   padding-right: 10px;
@@ -509,11 +509,12 @@ hr {
   }
   .splash-image-overlay {
     width: 35%;
+    padding: 20px;
     /*padding-top: 20px;
       padding-bottom: 20px;*/
   }
   #navbar-override .dropdown-menu {
-    border: 2px solid #decdef;
+    border: 2px solid #c59cf0;
     border-top: none;
     border-radius: 0px;
   }
