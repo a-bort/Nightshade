@@ -308,7 +308,7 @@ a.strong {
 }
 .splash-image-overlay {
   color: black;
-  background: #FFFD;
+  background: #FFFC;
   position: absolute;
   top: 7%;
   left: 5%;
@@ -335,7 +335,7 @@ a.strong {
 }
 .gardens-splash-image-overlay {
   color: black;
-  background: #FFFA;
+  background: #FFFC;
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -351,7 +351,7 @@ a.strong {
   width: 100%;
   height: auto;
   min-height: 275px;
-  background-image: url(../images/cocktails_1140_875.jpg);
+  background-image: url(../images/salad_garden.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -506,6 +506,9 @@ hr {
   }
   .splash-image-text {
     max-width: 700px;
+  }
+  .contact-splash-image {
+    min-height: 400px;
   }
   .splash-image-overlay {
     width: 35%;
