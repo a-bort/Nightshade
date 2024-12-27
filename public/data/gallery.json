@@ -1,5 +1,149 @@
 [
   {
+    "title": "Tiarella",
+    "description": "",
+    "src": "/images/tiarella_1200_900.jpg",
+    "msrc": "/images/tiarella_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Columbine",
+    "description": "",
+    "src": "/images/columbine_1200_900.jpg",
+    "msrc": "/images/columbine_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Fall Meadow",
+    "description": "",
+    "src": "/images/fall_meadow_1200_900.jpg",
+    "msrc": "/images/fall_meadow_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Woodland garden in Summer",
+    "description": "",
+    "src": "/images/woodland_summer_1200_900.jpg",
+    "msrc": "/images/woodland_summer_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Phlox",
+    "description": "",
+    "src": "/images/phlox_1200_900.jpg",
+    "msrc": "/images/phlox_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Woodland Garden",
+    "description": "",
+    "src": "/images/woodland_1200_900.jpg",
+    "msrc": "/images/woodland_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Spiderwort",
+    "description": "",
+    "src": "/images/spiderwort_900_1200.jpg",
+    "msrc": "/images/spiderwort_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "East-coast native Honeysuckle",
+    "description": "",
+    "src": "/images/honeysuckle_900_1200.jpg",
+    "msrc": "/images/honeysuckle_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Suburban native garden",
+    "description": "",
+    "src": "/images/suburban_natives_1200_900.jpg",
+    "msrc": "/images/suburban_natives_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Woodland garden",
+    "description": "",
+    "src": "/images/woodland_garden_1200_900.jpg",
+    "msrc": "/images/woodland_garden_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Summer meadow",
+    "description": "",
+    "src": "/images/summer_meadow_1200_900.jpg",
+    "msrc": "/images/summer_meadow_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Winterberry",
+    "description": "",
+    "src": "/images/winterberry_1200_900.jpg",
+    "msrc": "/images/winterberry_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Summer garden colors",
+    "description": "",
+    "src": "/images/summer_color_1200_900.jpg",
+    "msrc": "/images/summer_color_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Lilies",
+    "description": "",
+    "src": "/images/lilies_1200_900.jpg",
+    "msrc": "/images/lilies_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Blue indigo",
+    "description": "",
+    "src": "/images/blue_indigo_1200_900.jpg",
+    "msrc": "/images/blue_indigo_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Natives around a rose bush",
+    "description": "",
+    "src": "/images/rosebush_1200_900.jpg",
+    "msrc": "/images/rosebush_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Spring phlox",
+    "description": "",
+    "src": "/images/spring phlox_1200_900.jpg",
+    "msrc": "/images/spring_phlox_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Poolside native garden",
+    "description": "",
+    "src": "/images/poolside_1200_900.jpg",
+    "msrc": "/images/poolside_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
     "title": "Fall Garden",
     "description": "A fall Garden featuring Black-eyed Susan",
     "src": "/images/susan_1200_900.jpg",
@@ -17,7 +161,7 @@
   },
   {
     "title": "Takoma Shade Garden",
-    "description": "",
+    "description": "Shade garden and raised beds",
     "src": "/images/takoma_shade_garden_1200_900.jpg",
     "msrc": "/images/takoma_shade_garden_400_300.jpg",
     "w": "1200",
@@ -58,8 +202,8 @@
   {
     "title": "Alexandria Backyard",
     "description": "",
-    "src": "/images/alan_backyard_1200_700.jpg",
-    "msrc": "/images/alan_backyard_400_233.jpg",
+    "src": "/images/alexandria_1200_900.jpg",
+    "msrc": "/images/alexandria_400_300.jpg",
     "w": "1200",
     "h": "700"
   },
@@ -72,18 +216,26 @@
     "h": "1200"
   },
   {
-    "title": "Tomato Rainbow",
-    "description": "Tomatoes ripening on the vine",
-    "src": "/images/tomato_rainbow_900_1200.jpg",
-    "msrc": "/images/tomato_rainbow_300_400.jpg",
+    "title": "Bee on Echinacea",
+    "description": "",
+    "src": "/images/bee_900_1200.jpg",
+    "msrc": "/images/bee_300_400.jpg",
     "w": "900",
     "h": "1200"
   },
   {
-    "title": "Itea",
-    "description": "Itea virginica, about to bloom",
-    "src": "/images/itea_900_1200.jpg",
-    "msrc": "/images/itea_300_400.jpg",
+    "title": "East Coast amphibian",
+    "description": "",
+    "src": "/images/sally_900_1200.jpg",
+    "msrc": "/images/sally_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Tomato Rainbow",
+    "description": "Tomatoes ripening on the vine",
+    "src": "/images/tomato_rainbow_900_1200.jpg",
+    "msrc": "/images/tomato_rainbow_300_400.jpg",
     "w": "900",
     "h": "1200"
   },
@@ -102,6 +254,14 @@
     "msrc": "/images/takoma_raised_beds_400_300.jpg",
     "w": "1200",
     "h": "900"
+  },
+  {
+    "title": "Itea",
+    "description": "Itea virginica, about to bloom",
+    "src": "/images/itea_900_1200.jpg",
+    "msrc": "/images/itea_300_400.jpg",
+    "w": "900",
+    "h": "1200"
   },
   {
     "title": "Spring Harvest",
