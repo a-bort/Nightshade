@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <% include partials/head %>
+  <%- include('partials/head', {photoswipe: true}); %>
   <body>
     <% include partials/header %>
+    <script type="text/javascript">
+      window.galleryJson = <%-JSON.stringify(gallery)%>;
+    </script>
     <div class="splash">
       <div class="gardens-splash-image">
         <div class="gardens-splash-image-overlay">
@@ -49,9 +52,21 @@
           </div>
           <div class="col-md-6">
             <div class="content-box">
-              <p><img src="./images/ow_before_after_200_286.JPG" class="right-image services-image"/>If you have an outdoor space that needs some love -- be it a yard, a small urban plot, a rooftop, or an overgrown briar patch draped in popped birthday balloons and broken dreams -- we want to help you transform it into something more beautiful and enriching.</p>
-              <p>Our projects work alongside nature, using nerdy yet attractive ecological designs that enrich life. You’ll become a plant-growing badass with the help of our hands-on training sessions, and most importantly, you’ll get the multitude of benefits that come alongside an attractive and practical outdoor space that enhances your local ecosystem and your culinary prowess.</p>
-              <p><img src="./images/produce_200_150.jpg" class="left-image services-image"/>Not everyone will be a good fit as our client, and we’re cool with that. Our goal is to start and maintain mutually beneficial relationships with folks who have an appreciation for our planet and a shared passion for quality food. Once we find clients that are a good match for Nightshade, we’ll work our asses off to deliver a high quality product/service and provide you with on-going support.</p>
+              <p>
+                <a class="gallery-link" href="/#" data-index="0">
+                  <img class="right-image services-image" src="<%=gallery[0].msrc%>" alt="<%= gallery[0].title %>"/>
+                </a>
+                If you have an outdoor space that needs some love -- be it a yard, a small urban plot, a rooftop, or an overgrown briar patch draped in popped birthday balloons and broken dreams -- we want to help you transform it into something more beautiful and enriching.
+              </p>
+              <p>
+                Our projects work alongside nature, using nerdy yet attractive ecological designs that enrich life. You’ll become a plant-growing badass with the help of our hands-on training sessions, and most importantly, you’ll get the multitude of benefits that come alongside an attractive and practical outdoor space that enhances your local ecosystem and your culinary prowess.
+              </p>
+              <p>
+                <a class="gallery-link" href="/#" data-index="1">
+                  <img class="left-image services-image" src="<%=gallery[1].msrc%>" alt="<%= gallery[1].title %>"/>
+                </a>
+                Not everyone will be a good fit as our client, and we’re cool with that. Our goal is to start and maintain mutually beneficial relationships with folks who have an appreciation for our planet and a shared passion for quality food. Once we find clients that are a good match for Nightshade, we’ll work our asses off to deliver a high quality product/service and provide you with on-going support.
+              </p>
             </div>
             <div class="content-box">
               <center>
@@ -60,6 +75,69 @@
             </div>
           </div>
         </div>
+
+        <!-- Root element of PhotoSwipe. Must have class pswp. -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <!-- Background of PhotoSwipe.
+                 It's a separate element as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg"></div>
+
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
+
+                <!-- Container that holds slides.
+                    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                    Don't modify these 3 pswp__item elements, data is added later on. -->
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--hidden">
+
+                    <div class="pswp__top-bar">
+
+                        <!--  Controls are self-explanatory. Order can be changed. -->
+
+                        <div class="pswp__counter"></div>
+
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                              <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                    </button>
+
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                    </button>
+
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script src="./javascripts/photoswipe-init.js"></script>
+
       </div>
     </div>
 
