@@ -301,7 +301,7 @@ a.strong {
   height: auto;
   min-height: 400px;
   background-image: url(../images/fall_color_1200_900.png);
-  background-position: center center;
+  background-position: center 25%;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: left;
