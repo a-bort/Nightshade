@@ -24,15 +24,7 @@
     "h": "900"
   },
   {
-    "title": "Woodland garden in Summer",
-    "description": "",
-    "src": "/images/woodland_summer_1200_900.jpg",
-    "msrc": "/images/woodland_summer_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Phlox",
+    "title": "Woodland Phlox",
     "description": "",
     "src": "/images/phlox_1200_900.jpg",
     "msrc": "/images/phlox_400_300.jpg",
@@ -48,7 +40,7 @@
     "h": "900"
   },
   {
-    "title": "Spiderwort",
+    "title": "Ohio Spiderwort",
     "description": "",
     "src": "/images/spiderwort_900_1200.jpg",
     "msrc": "/images/spiderwort_300_400.jpg",
@@ -112,22 +104,6 @@
     "h": "900"
   },
   {
-    "title": "Blue indigo",
-    "description": "",
-    "src": "/images/blue_indigo_1200_900.jpg",
-    "msrc": "/images/blue_indigo_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Natives around a rose bush",
-    "description": "",
-    "src": "/images/rosebush_1200_900.jpg",
-    "msrc": "/images/rosebush_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
     "title": "Spring phlox",
     "description": "",
     "src": "/images/spring_phlox_1200_900.jpg",
@@ -152,18 +128,10 @@
     "h": "900"
   },
   {
-    "title": "Caterpillar",
+    "title": "Monarch Caterpillar",
     "description": "A Monarch caterpillar feasting on Butterfly weed",
     "src": "/images/monarch_1200_900.jpg",
     "msrc": "/images/monarch_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Takoma Shade Garden",
-    "description": "Shade garden and raised beds",
-    "src": "/images/takoma_shade_garden_1200_900.jpg",
-    "msrc": "/images/takoma_shade_garden_400_300.jpg",
     "w": "1200",
     "h": "900"
   },
@@ -224,7 +192,7 @@
     "h": "1200"
   },
   {
-    "title": "East Coast amphibian",
+    "title": "Resident Skink (Plestiodon sp.)",
     "description": "",
     "src": "/images/sally_900_1200.jpg",
     "msrc": "/images/sally_300_400.jpg",
@@ -240,14 +208,6 @@
     "h": "1200"
   },
   {
-    "title": "Sunny Patch",
-    "description": "A sunny patch in a shaded backyard provides a nice habitat for a variety of species, plant and fungus",
-    "src": "/images/mushroom_1200_900.jpg",
-    "msrc": "/images/mushroom_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
     "title": "Raised Beds in Takoma Park",
     "description": "These customer built raised beds provide an amazing growing environments for fruits and veggies.",
     "src": "/images/takoma_raised_beds_1200_900.jpg",
@@ -256,7 +216,7 @@
     "h": "900"
   },
   {
-    "title": "Itea",
+    "title": "Itea virginica",
     "description": "Itea virginica, about to bloom",
     "src": "/images/itea_900_1200.jpg",
     "msrc": "/images/itea_300_400.jpg",
@@ -272,23 +232,7 @@
     "h": "1200"
   },
   {
-    "title": "Salad Garden in Silver Spring",
-    "description": "",
-    "src": "/images/salad_garden_2_900_1200.jpg",
-    "msrc": "/images/salad_garden_2_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "Echinacea",
-    "description": "",
-    "src": "/images/echinacea_900_1200.jpg",
-    "msrc": "/images/echinacea_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "Aster",
+    "title": "New England Aster",
     "description": "",
     "src": "/images/aster_1200_900.jpg",
     "msrc": "/images/aster_400_300.jpg",
@@ -308,14 +252,6 @@
     "description": "",
     "src": "/images/homestead_install_1200_900.jpg",
     "msrc": "/images/homestead_install_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Raspberry Trellises",
-    "description": "",
-    "src": "/images/raspberry_trellises_1200_900.jpg",
-    "msrc": "/images/raspberry_trellises_400_300.jpg",
     "w": "1200",
     "h": "900"
   }
