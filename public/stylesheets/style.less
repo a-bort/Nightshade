@@ -1,8 +1,9 @@
 @primary-color:         #F2DEC4; //tan //#2C0C4E; //deep purple //#442169 //#140227;//#310661;//#290895;//#261758;
 
-@background-color:      #FFFFFF;//#000000;
-@text-color-dark:       #333333;
-@text-color-over-primary:      #1B1D30;
+@background-color:        #FFFFFF;//#000000;
+@text-color-dark:         #333333;
+@header-text-color:       #1B1D30;
+@header-text-color-light: lighten(@header-text-color, 20%);
 
 @primary-color-dark:    darken(@primary-color, 10%);
 @primary-color-darker:  darken(@primary-color, 20%);
@@ -28,8 +29,6 @@
 
 @shadow:                5px 5px 0px 0px;
 
-@header-text-color:     @text-color-over-primary;
-@header-text-inv-color: @text-color-over-primary;
 @header-btn-color:      @primary-color;
 @header-alt-color:      @primary-color-dark;
 @body-text-color:       @text-color-dark;
@@ -291,6 +290,7 @@ a.strong {
 .banner-subhead {
   font-size: 28px;
   font-variant: small-caps;
+  text-shadow: 1px 1px 2px @header-text-color-light;
 }
 
 .banner a {
