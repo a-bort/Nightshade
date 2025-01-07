@@ -1,24 +1,24 @@
-@primary-color:         #2C0C4E; //deep purple //#442169 //#140227;//#310661;//#290895;//#261758;
+@primary-color:         #F2DEC4; //tan //#2C0C4E; //deep purple //#442169 //#140227;//#310661;//#290895;//#261758;
 
 @background-color:      #FFFFFF;//#000000;
 @text-color-dark:       #333333;
-@text-color-light:      #CCCCCC;
+@text-color-over-primary:      #1B1D30;
 
-@primary-color-light:   lighten(@primary-color, 20%);
-@primary-color-lighter: lighten(@primary-color, 60%);
+@primary-color-dark:    darken(@primary-color, 10%);
+@primary-color-darker:  darken(@primary-color, 20%);
 @secondary-color:       #176189;//teal / blue #887CAF;
 @secondary-color-light: lighten(@secondary-color, 20%);
-@tertiary-color:        #199A2A;//green #4A9130
-@tertiary-color-light:  lighten(@tertiary-color, 20%);
+@tertiary-color:        #9A43F5;//lavender #4A9130
+@tertiary-color-light:  lighten(@tertiary-color, 10%);
 
-@highlight-color:       #E4C634;//canary yellow
-@highlight-background:  #E0CFF3;//light lavender
-@highlight-background-alt:  #F9F9F9;//off white
+@highlight-color:       @tertiary-color;
 
-@border-color:          @primary-color-lighter;
-@shadow-color:          #D6BEEF;//lighten(@border-color, 10%);
-@link-color:            @primary-color;//@text-color-dark;
-@link-color-hover:      @highlight-color;//@primary-color-light;
+@highlight-box-border:  @primary-color-dark;
+@highlight-box-bg:      #F9F9F9;//off white
+
+@border-color:          @primary-color-dark;
+@link-color:            @text-color-dark;
+@link-color-hover:      @highlight-color;
 @button-color:          @secondary-color;
 @button-color-hover:    @secondary-color-light;
 @button-text-color:     #FFFFFF;
@@ -28,16 +28,17 @@
 
 @shadow:                5px 5px 0px 0px;
 
-@header-text-color:     @text-color-light;
-@header-text-inv-color: @text-color-light;
+@header-text-color:     @text-color-over-primary;
+@header-text-inv-color: @text-color-over-primary;
 @header-btn-color:      @primary-color;
-@header-alt-color:      @primary-color-light;
+@header-alt-color:      @primary-color-dark;
 @body-text-color:       @text-color-dark;
 
 @revolt-font:           'Vtks Revolt';
 @flower-font:           'FlowersInitials';
 @playfair-font:         'Playfair Display';
-@title-font:            'EagleLake-Regular';//'Yatra One', cursive;
+@header-font:           'EagleLake-Regular';
+@title-font:            'Yatra One', cursive;
 @script-font:           @revolt-font;
 
 @font-face {
@@ -51,7 +52,7 @@
 }
 
 @font-face {
-  font-family: @title-font;
+  font-family: @header-font;
   src: url('EagleLake-Regular.ttf') format('truetype');
 }
 
@@ -181,13 +182,6 @@ a.strong {
   margin-bottom: 30px;
 }
 
-.dark-links a {
-  color: @text-color-dark;
-  &:hover, &:focus {
-    color: @primary-color-light;
-  }
-}
-
 .large-p-text {
   font-size: 16px;
 }
@@ -283,7 +277,7 @@ a.strong {
 .banner {
   background-color: @primary-color;
   color: @header-text-color;
-  font-family: @title-font;
+  font-family: @header-font;
   display: none;
 }
 
@@ -310,6 +304,7 @@ a.strong {
 
 .navbar .navbar-collapse {
   text-align: center;
+  border-color: @border-color;
 }
 
 .navbar .navbar-nav {
@@ -472,9 +467,6 @@ a.strong {
   //border: @thin-border @border-color;
   margin: 10px;
   margin-bottom: 20px;
-  /*-webkit-box-shadow: @shadow @shadow-color;
-  -moz-box-shadow: @shadow @shadow-color;
-  box-shadow: @shadow @shadow-color;*/
 }
 
 .content-box img {
@@ -507,22 +499,24 @@ a.strong {
 }
 
 .highlight-box {
-  background-color: @highlight-background;
+  background-color: @highlight-box-bg !important;
+  border: 1px solid @highlight-box-border;
   padding: 20px;
   margin-bottom: 20px;
+  box-shadow: @highlight-box-border 2px 2px;
 }
 
 .highlight-box h4 {
   font-variant: normal;
 }
 
-.highlight-box-alt{
-  background-color: @highlight-background-alt !important;
-  border: 1px solid @highlight-background;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: @highlight-background 2px 2px;
-}
+// .highlight-box-alt{
+//   background-color: @highlight-box-bg !important;
+//   border: 1px solid @highlight-box-border;
+//   padding: 20px;
+//   margin-bottom: 20px;
+//   box-shadow: @highlight-box 2px 2px;
+// }
 
 .page-content a.list-group-item {
   text-decoration: none !important;
