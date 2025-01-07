@@ -6,6 +6,10 @@
   font-family: 'FlowersInitials';
   src: url('FlowersInitials.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'EagleLake-Regular';
+  src: url('EagleLake-Regular.ttf') format('truetype');
+}
 .script-font {
   font-family: 'Vtks Revolt', cursive;
   font-size: 58px;
@@ -46,7 +50,7 @@ h2,
 h3,
 h4 {
   font-variant: small-caps;
-  font-family: 'Yatra One', cursive;
+  font-family: 'EagleLake-Regular';
 }
 h1 {
   font-size: 26px;
@@ -199,7 +203,7 @@ a.strong {
 .banner {
   background-color: #2C0C4E;
   color: #CCCCCC;
-  font-family: 'Yatra One', cursive;
+  font-family: 'EagleLake-Regular';
   display: none;
 }
 .banner-head {
@@ -210,7 +214,7 @@ a.strong {
 }
 .banner-subhead {
   font-size: 28px;
-  font-variant: all-small-caps;
+  font-variant: small-caps;
 }
 .banner a {
   text-decoration: none;
@@ -275,7 +279,7 @@ a.strong {
 }
 .navbar-brand {
   color: #CCCCCC !important;
-  font-family: 'Yatra One', cursive;
+  font-family: 'EagleLake-Regular';
   font-size: 24px;
   display: block;
 }
@@ -433,7 +437,7 @@ a.strong {
   background: #FFFFFF;
   border: none;
   font-size: 18px;
-  font-family: 'Yatra One', cursive;
+  font-family: 'EagleLake-Regular';
 }
 .header-btn:after {
   font-family: 'Glyphicons Halflings';
