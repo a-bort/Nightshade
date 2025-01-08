@@ -1,6 +1,6 @@
 [
   {
-    "title": "Tiarella",
+    "title": "Foamflower (Tiarella cordifolia)",
     "description": "",
     "src": "/images/tiarella_1200_900.jpg",
     "msrc": "/images/tiarella_400_300.jpg",
@@ -8,7 +8,7 @@
     "h": "900"
   },
   {
-    "title": "Columbine",
+    "title": "Red Columbine (Aquilegia canadensis)",
     "description": "",
     "src": "/images/columbine_1200_900.jpg",
     "msrc": "/images/columbine_400_300.jpg",
@@ -16,7 +16,7 @@
     "h": "900"
   },
   {
-    "title": "Fall Meadow",
+    "title": "Fall meadow",
     "description": "",
     "src": "/images/fall_meadow_1200_900.jpg",
     "msrc": "/images/fall_meadow_400_300.jpg",
@@ -24,7 +24,7 @@
     "h": "900"
   },
   {
-    "title": "Woodland Phlox",
+    "title": "Woodland phlox (Phlox divaricata)",
     "description": "",
     "src": "/images/phlox_1200_900.jpg",
     "msrc": "/images/phlox_400_300.jpg",
@@ -32,7 +32,7 @@
     "h": "900"
   },
   {
-    "title": "Woodland Garden",
+    "title": "Woodland garden showing spring colors",
     "description": "",
     "src": "/images/woodland_1200_900.jpg",
     "msrc": "/images/woodland_400_300.jpg",
@@ -40,20 +40,12 @@
     "h": "900"
   },
   {
-    "title": "Ohio Spiderwort",
+    "title": "A fresh bed, ready for planting",
     "description": "",
-    "src": "/images/spiderwort_900_1200.jpg",
-    "msrc": "/images/spiderwort_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "East-coast native Honeysuckle",
-    "description": "",
-    "src": "/images/honeysuckle_900_1200.jpg",
-    "msrc": "/images/honeysuckle_300_400.jpg",
-    "w": "900",
-    "h": "1200"
+    "src": "/images/large_bed_1200_900.jpg",
+    "msrc": "/images/large_bed_400_300.jpg",
+    "w": "1200",
+    "h": "900"
   },
   {
     "title": "Suburban native garden",
@@ -64,7 +56,7 @@
     "h": "900"
   },
   {
-    "title": "Woodland garden",
+    "title": "Woodland garden with Penstemon popping",
     "description": "",
     "src": "/images/woodland_garden_1200_900.jpg",
     "msrc": "/images/woodland_garden_400_300.jpg",
@@ -80,7 +72,7 @@
     "h": "900"
   },
   {
-    "title": "Winterberry",
+    "title": "Winterberry (Ilex verticillata)",
     "description": "",
     "src": "/images/winterberry_1200_900.jpg",
     "msrc": "/images/winterberry_400_300.jpg",
@@ -88,7 +80,7 @@
     "h": "900"
   },
   {
-    "title": "Summer garden colors",
+    "title": "Soft summer garden colors",
     "description": "",
     "src": "/images/summer_color_1200_900.jpg",
     "msrc": "/images/summer_color_400_300.jpg",
@@ -96,7 +88,7 @@
     "h": "900"
   },
   {
-    "title": "Lilies",
+    "title": "Lilies in spring",
     "description": "",
     "src": "/images/lilies_1200_900.jpg",
     "msrc": "/images/lilies_400_300.jpg",
@@ -104,7 +96,7 @@
     "h": "900"
   },
   {
-    "title": "Spring phlox",
+    "title": "Spring phlox accompanied by foamflower",
     "description": "",
     "src": "/images/spring_phlox_1200_900.jpg",
     "msrc": "/images/spring_phlox_400_300.jpg",
@@ -112,7 +104,7 @@
     "h": "900"
   },
   {
-    "title": "Poolside native garden",
+    "title": "Poolside native garden after rainfall",
     "description": "",
     "src": "/images/poolside_1200_900.jpg",
     "msrc": "/images/poolside_400_300.jpg",
@@ -120,15 +112,15 @@
     "h": "900"
   },
   {
-    "title": "Fall Garden",
-    "description": "A fall Garden featuring Black-eyed Susan",
+    "title": "Brown-eyed susan (Rudbeckia fulgida)",
+    "description": "A fall Garden featuring Brown-eyed Susan",
     "src": "/images/susan_1200_900.jpg",
     "msrc": "/images/susan_400_300.jpg",
     "w": "1200",
     "h": "900"
   },
   {
-    "title": "Monarch Caterpillar",
+    "title": "Monarch caterpillar (Danaus plexippus)",
     "description": "A Monarch caterpillar feasting on Butterfly weed",
     "src": "/images/monarch_1200_900.jpg",
     "msrc": "/images/monarch_400_300.jpg",
@@ -136,7 +128,7 @@
     "h": "900"
   },
   {
-    "title": "Patio Container Garden",
+    "title": "Patio container garden, small but mighty",
     "description": "This urban patio has been packed to the brim with plants, strategically placed to maximize lighting and plant happiness.",
     "src": "/images/patio_rack_1200_900.jpg",
     "msrc": "/images/patio_rack_400_300.jpg",
@@ -144,7 +136,7 @@
     "h": "900"
   },
   {
-    "title": "Deck Planter",
+    "title": "Deck planters",
     "description": "Large custom built planters adorn this suburban deck, which hosts a mix of perennial herbs, lettuces, and pollinator-friendly species.",
     "src": "/images/deck_planter_2_1200_900.jpg",
     "msrc": "/images/deck_planter_2_400_300.jpg",
@@ -152,7 +144,7 @@
     "h": "900"
   },
   {
-    "title": "Urban Pollinator Garden",
+    "title": "Urban pollinator garden",
     "description": "This parially barren urban plot transformed into a lush, pollinator friendly oasis in less than a year!",
     "src": "/images/urban_pollinator_garden_1200_900.jpg",
     "msrc": "/images/urban_pollinator_garden_400_300.jpg",
@@ -160,7 +152,7 @@
     "h": "900"
   },
   {
-    "title": "Homestead Frontyard",
+    "title": "Homestead frontyard",
     "description": "",
     "src": "/images/homestead_frontyard_1200_900.jpg",
     "msrc": "/images/homestead_frontyard_400_300.jpg",
@@ -168,18 +160,26 @@
     "h": "900"
   },
   {
-    "title": "Alexandria Backyard",
+    "title": "Alexandria backyard",
     "description": "",
     "src": "/images/alexandria_1200_900.jpg",
     "msrc": "/images/alexandria_400_300.jpg",
     "w": "1200",
-    "h": "700"
+    "h": "900"
   },
   {
-    "title": "Bort and Squash",
-    "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
-    "src": "/images/bort_squashed_900_1200.jpg",
-    "msrc": "/images/bort_squashed_300_400.jpg",
+    "title": "Raised Beds in Takoma Park",
+    "description": "These customer built raised beds provide an amazing growing environments for fruits and veggies.",
+    "src": "/images/takoma_raised_beds_1200_900.jpg",
+    "msrc": "/images/takoma_raised_beds_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Ohio Spiderwort (Tradescantia ohiensis)",
+    "description": "",
+    "src": "/images/spiderwort_900_1200.jpg",
+    "msrc": "/images/spiderwort_300_400.jpg",
     "w": "900",
     "h": "1200"
   },
@@ -194,13 +194,13 @@
   {
     "title": "Resident Skink (Plestiodon sp.)",
     "description": "",
-    "src": "/images/sally_900_1200.jpg",
-    "msrc": "/images/sally_300_400.jpg",
+    "src": "/images/skink_900_1200.jpg",
+    "msrc": "/images/skink_300_400.jpg",
     "w": "900",
     "h": "1200"
   },
   {
-    "title": "Tomato Rainbow",
+    "title": "Tomato rainbow",
     "description": "Tomatoes ripening on the vine",
     "src": "/images/tomato_rainbow_900_1200.jpg",
     "msrc": "/images/tomato_rainbow_300_400.jpg",
@@ -208,15 +208,31 @@
     "h": "1200"
   },
   {
-    "title": "Raised Beds in Takoma Park",
-    "description": "These customer built raised beds provide an amazing growing environments for fruits and veggies.",
-    "src": "/images/takoma_raised_beds_1200_900.jpg",
-    "msrc": "/images/takoma_raised_beds_400_300.jpg",
-    "w": "1200",
-    "h": "900"
+    "title": "Coral honeysuckly (Lonicera sempervirens) - so cute!",
+    "description": "",
+    "src": "/images/lonicera_petite_900_1200.jpg",
+    "msrc": "/images/lonicera_petite_300_400.jpg",
+    "w": "900",
+    "h": "1200"
   },
   {
-    "title": "Itea virginica",
+    "title": "Coral honeysuckly (Lonicera sempervirens) - dear god!",
+    "description": "",
+    "src": "/images/lonicera_huge_900_1200.jpg",
+    "msrc": "/images/lonicera_huge_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Bort, meet squash",
+    "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
+    "src": "/images/bort_squashed_900_1200.jpg",
+    "msrc": "/images/bort_squashed_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Virginia sweetspire (Itea virginica)",
     "description": "Itea virginica, about to bloom",
     "src": "/images/itea_900_1200.jpg",
     "msrc": "/images/itea_300_400.jpg",
@@ -224,7 +240,7 @@
     "h": "1200"
   },
   {
-    "title": "Spring Harvest",
+    "title": "Spring harvest",
     "description": "",
     "src": "/images/spring_harvest_900_1200.jpg",
     "msrc": "/images/spring_harvest_300_400.jpg",
@@ -232,7 +248,7 @@
     "h": "1200"
   },
   {
-    "title": "New England Aster",
+    "title": "New England Aster (Symphyotrichum novae-angliae)",
     "description": "",
     "src": "/images/aster_1200_900.jpg",
     "msrc": "/images/aster_400_300.jpg",
@@ -240,7 +256,15 @@
     "h": "900"
   },
   {
-    "title": "Pollinator Garden",
+    "title": "A wild section of a larger property",
+    "description": "",
+    "src": "/images/back_nine_1200_900.jpg",
+    "msrc": "/images/back_nine_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Pollinators along the berm",
     "description": "",
     "src": "/images/pollinator_garden_1200_900.jpg",
     "msrc": "/images/pollinator_garden_400_300.jpg",
@@ -248,7 +272,15 @@
     "h": "900"
   },
   {
-    "title": "Homestead Install",
+    "title": "Pre-install knolling",
+    "description": "The calm before the storm",
+    "src": "/images/plant_armada_1200_900.jpg",
+    "msrc": "/images/plant_armada_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Homestead install",
     "description": "",
     "src": "/images/homestead_install_1200_900.jpg",
     "msrc": "/images/homestead_install_400_300.jpg",
