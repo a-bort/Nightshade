@@ -1,4 +1,4 @@
-@primary-color:         #F2DEC4; //tan //#2C0C4E; //deep purple //#442169 //#140227;//#310661;//#290895;//#261758;
+@primary-color:           #FFF6CA;;//#d9ffd2; green //#FFF6CA; yellow //#F2DEC4; //tan //#2C0C4E; //deep purple //#442169 //#140227;//#310661;//#290895;//#261758;
 
 @background-color:        #FFFFFF;//#000000;
 @text-color-dark:         #333333;
@@ -6,7 +6,7 @@
 @header-text-color-light: lighten(@header-text-color, 20%);
 
 @primary-color-dark:    darken(@primary-color, 10%);
-@primary-color-darker:  darken(@primary-color, 20%);
+@primary-color-darker:  #edd457; //darken(@primary-color, 30%);
 @secondary-color:       #176189;//teal / blue #887CAF;
 @secondary-color-light: lighten(@secondary-color, 20%);
 @tertiary-color:        #9A43F5;//lavender #4A9130
@@ -14,10 +14,10 @@
 
 @highlight-color:       @tertiary-color;
 
-@highlight-box-border:  @primary-color-dark;
+@highlight-box-border:  @primary-color-darker;
 @highlight-box-bg:      #F9F9F9;//off white
 
-@border-color:          @primary-color-dark;
+@border-color:          @primary-color-darker;
 @link-color:            @text-color-dark;
 @link-color-hover:      @highlight-color;
 @button-color:          @secondary-color;
@@ -362,18 +362,20 @@ a.strong {
 
 .navbar-brand {
   color: @header-text-color !important;
-  font-family: @title-font;
-  font-size: 24px;
+  font-family: @header-font;
+  padding: 12px 15px;
+  line-height: 28px;
   display: block;
 }
 
 .navbar-title {
-  font-variant: small-caps;
+
 }
 
 .navbar-subtitle {
-  font-variant: all-small-caps;
+  font-variant: small-caps;
   font-size: 16px;
+  text-shadow: 1px 1px 3px @header-text-color-light;
 }
 
 .headline {
