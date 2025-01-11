@@ -27,32 +27,36 @@ router.get('/gallery', function(req, res, next) {
   res.render('gallery', { title: "Gallery of our Projects", pagename: "gallery", gallery: galleryJson});
 });
 
-router.get('/services', function(req, res, next) {
-  res.render('gardens-old', { title: "Gardens", pagename: "gardens" });
-});
+// router.get('/services', function(req, res, next) {
+//   res.render('gardens-old', { title: "Gardens", pagename: "gardens" });
+// });
 
-router.get('/book', function(req, res, next) {
-  res.render('book', { title: "Book Us", pagename: "book" });
-});
+// router.get('/book', function(req, res, next) {
+//   res.render('book', { title: "Book Us", pagename: "book" });
+// });
 
 router.get('/gardens', function(req, res, next) {
   res.render('gardens', { title: "Gardens & Edible Landscapes", pagename: "gardens", gallery: projectsJson });
 });
 
-router.get('/events', function(req, res, next) {
-  res.render('events', { title: "Sustainable Feasts", pagename: "events" });
-});
+// router.get('/events', function(req, res, next) {
+//   res.render('events', { title: "Sustainable Feasts", pagename: "events" });
+// });
 
-router.get('/products', function(req, res, next) {
-  res.render('products', { title: "Unique Products", pagename: "products" });
-});
+// router.get('/products', function(req, res, next) {
+//   res.render('products', { title: "Unique Products", pagename: "products" });
+// });
 
-router.get('/order', function(req, res, next) {
-  res.render('order', { title: "Order", pagename: "products" });
-});
+// router.get('/order', function(req, res, next) {
+//   res.render('order', { title: "Order", pagename: "products" });
+// });
 
 router.get('/values', function(req, res, next) {
   res.render('values', { title: "Values", pagename: "values" });
+});
+
+router.get('/sweepstakes', function(req, res, next) {
+  res.render('sweepstakes', { title: "Spring Sweepstakes", pagename: "sweepstakes" });
 });
 
 module.exports = router;
