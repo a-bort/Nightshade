@@ -123,6 +123,9 @@ a.strong {
 .large-p-text {
   font-size: 16px;
 }
+.mini-p-text {
+  font-size: 11px;
+}
 .highlight {
   color: #2C0C4E;
 }
