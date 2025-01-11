@@ -24,9 +24,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">We give a sh<span class="inline-highlight">*</span>t! <span class="inline-highlight caret"></span></a>
           <ul class="dropdown-menu">
-            <li <% if (pagename == 'about') { %>class="active"<% } %> ><a href="about">Our Team</a></li>
-            <li <% if (pagename == 'values') { %>class="active"<% } %> ><a href="values">Our Values</a></li>
-            <li <% if (pagename == 'manifesto') { %>class="active"<% } %> ><a href="manifesto">Our Manifesto</a></li>
+            <li <% if (pagename && pagename == 'about') { %>class="active"<% } %> ><a href="about">Our Team</a></li>
+            <li <% if (pagename && pagename == 'values') { %>class="active"<% } %> ><a href="values">Our Values</a></li>
+            <li <% if (pagename && pagename == 'manifesto') { %>class="active"<% } %> ><a href="manifesto">Our Manifesto</a></li>
             <!--li <% if (pagename == 'plants') { %>class="active"<% } %> ><a href="plants">Badass Plants</a></li-->
           </ul>
         </li>
@@ -34,8 +34,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Garden Projects<span class="inline-highlight caret"></span></a>
           <ul class="dropdown-menu">
 
-            <li <% if (pagename == 'gardens') { %>class="active"<% } %> ><a href="gardens">Why Our Projects Kick Ass</a></li>
-            <li <% if (pagename == 'gallery') { %>class="active"<% } %> ><a href="gallery">Gallery</a></li>
+            <li <% if (pagename && pagename == 'gardens') { %>class="active"<% } %> ><a href="gardens">Why Our Projects Kick Ass</a></li>
+            <li <% if (pagename && pagename == 'sweepstakes') { %>class="active"<% } %> ><a href="sweepstakes">Spring Sweepstakes!</a></li>
+            <li <% if (pagename && pagename == 'gallery') { %>class="active"<% } %> ><a href="gallery">Gallery</a></li>
             <!--li <% if (pagename == 'book') { %>class="active"<% } %> ><a href="book">Book Us<span class="inline-highlight">!</span></a></li-->
             <!--li <% if (pagename == 'plants') { %>class="active"<% } %> ><a href="plants">Badass Plants</a></li-->
           </ul>
