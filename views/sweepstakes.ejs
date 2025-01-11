@@ -4,6 +4,7 @@
   <body>
     <% include partials/header %>
 
+    <% if(new Date('2025-02-15T22:00:00.000000000Z') > new Date()){%>
     <div class="page-content">
       <div class="container">
         <div class="row">
@@ -45,7 +46,25 @@
         </div>
       </div>
     </div>
-
+    <% } else { %>
+      <div class="page-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7">
+              <center><h2>Our 2025 Spring Sweepstakes has Ended :(</h2></center>
+              <div class="content-box">
+                <p>All good things must come to an end, including our Spring Sweepstakes. Sorry you missed it! Don't fret though, we are still booking consultations for the 2025 season. Email us at <a href="mailto:info@nightshadedc.com">info@nightshadedc.com</a> for more information.</p>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="splash">
+                <div class="sweepstakes-splash-image"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% } %>
   </body>
   <% include partials/footer %>
 </html>
