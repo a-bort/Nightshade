@@ -59,4 +59,8 @@ router.get('/sweepstakes', function(req, res, next) {
   res.render('sweepstakes', { title: "Spring Sweepstakes", pagename: "sweepstakes" });
 });
 
+router.get('/error', function(req, res, next) {
+  res.render('error', { title: "Something went wrong", pagename: "error" });
+});
+
 module.exports = router;
