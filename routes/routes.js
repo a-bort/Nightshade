@@ -8,7 +8,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/index', function(req, res, next) {
-  res.render('index', { title: "", pagename: "index" });
+  res.redirect('/');
+  //res.render('index', { title: "", pagename: "index" });
 });
 
 router.get('/about', function(req, res, next) {

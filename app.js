@@ -41,7 +41,9 @@ app.use(function(req, res, next){
 app.use(function(req, res, next){
   var url = req.url || "";
   if(url && url.endsWith(".html")){
-    req.url = url.substring(0, url.length - 5);
+    var trimUrl = url.substring(0, url.length - 5);
+    return res.redirect(trimUrl);
+    //req.url = url.substring(0, url.length - 5);
   }
   next();
 });
