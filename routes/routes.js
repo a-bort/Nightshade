@@ -44,13 +44,13 @@ router.get('/gardens', function(req, res, next) {
 //   res.render('events', { title: "Sustainable Feasts", pagename: "events" });
 // });
 
-// router.get('/products', function(req, res, next) {
-//   res.render('products', { title: "Unique Products", pagename: "products" });
-// });
+router.get('/products', function(req, res, next) {
+  res.render('products', { title: "Unique Products", pagename: "products" });
+});
 
-// router.get('/order', function(req, res, next) {
-//   res.render('order', { title: "Order", pagename: "products" });
-// });
+router.get('/order', function(req, res, next) {
+  res.render('order', { title: "Order", pagename: "order" });
+});
 
 router.get('/values', function(req, res, next) {
   res.render('values', { title: "Values", pagename: "values" });
