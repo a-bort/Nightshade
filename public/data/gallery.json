@@ -16,6 +16,22 @@
     "h": "900"
   },
   {
+    "title": "From gas line disaster to urban oasis",
+    "description": "",
+    "src": "/images/at_patio_900_1200.png",
+    "msrc": "/images/at_patio_300_400.png",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Virginia sweetspire (Itea virginica)",
+    "description": "Itea virginica, about to bloom",
+    "src": "/images/itea_900_1200.jpg",
+    "msrc": "/images/itea_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
     "title": "Fall meadow",
     "description": "",
     "src": "/images/fall_meadow_1200_900.jpg",
@@ -232,20 +248,20 @@
     "h": "1200"
   },
   {
-    "title": "Virginia sweetspire (Itea virginica)",
-    "description": "Itea virginica, about to bloom",
-    "src": "/images/itea_900_1200.jpg",
-    "msrc": "/images/itea_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
     "title": "Spring harvest",
     "description": "",
     "src": "/images/spring_harvest_900_1200.jpg",
     "msrc": "/images/spring_harvest_300_400.jpg",
     "w": "900",
     "h": "1200"
+  },
+  {
+    "title": "Rue-anemone (Thalictrum thalictroides)",
+    "description": "A cute spring wildflower in a brand new landscape",
+    "src": "/images/thalictrum_1200_900.jpg",
+    "msrc": "/images/thalictrum_400_300.jpg",
+    "w": "1200",
+    "h": "900"
   },
   {
     "title": "New England Aster (Symphyotrichum novae-angliae)",
