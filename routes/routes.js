@@ -17,7 +17,12 @@ router.get('/about', function(req, res, next) {
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: "Contact", pagename: "contact" });
+  var ref = "";
+  if(req.query && req.query.ref){
+    ref = req.query.ref;
+  }
+  console.log("Referrer: " + ref);
+  res.render('contact', { title: "Contact", pagename: "contact", referrer: ref });
 });
 
 router.get('/manifesto', function(req, res, next) {
