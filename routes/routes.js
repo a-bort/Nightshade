@@ -45,6 +45,10 @@ router.get('/gardens', function(req, res, next) {
   res.render('gardens', { title: "Gardens & Edible Landscapes", pagename: "gardens", gallery: projectsJson });
 });
 
+router.get('/hiring', function(req, res, next) {
+  res.render('hiring', { title: "We're Hiring", pagename: "hiring" });
+});
+
 // router.get('/events', function(req, res, next) {
 //   res.render('events', { title: "Sustainable Feasts", pagename: "events" });
 // });
