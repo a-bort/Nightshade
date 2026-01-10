@@ -1,5 +1,133 @@
 [
   {
+    "title": "Woodland patio",
+    "description": "",
+    "src": "/images/woodland_patio_1200_900.jpg",
+    "msrc": "/images/woodland_patio_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Bird bath",
+    "description": "",
+    "src": "/images/bird_bath_1200_900.jpg",
+    "msrc": "/images/bird_bath_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Spring specimens",
+    "description": "",
+    "src": "/images/spring_specimens_1200_711.jpg",
+    "msrc": "/images/spring_specimens_507_300.jpg",
+    "w": "1200",
+    "h": "711"
+  },
+  {
+    "title": "Fall specimens",
+    "description": "",
+    "src": "/images/fall_specimens_1200_711.jpg",
+    "msrc": "/images/fall_specimens_507_300.jpg",
+    "w": "1200",
+    "h": "711"
+  },
+  {
+    "title": "Wild fall meadow",
+    "description": "",
+    "src": "/images/wild_fall_1200_900.jpg",
+    "msrc": "/images/wild_fall_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Wild spring woodland",
+    "description": "",
+    "src": "/images/wild_spring_1200_900.jpg",
+    "msrc": "/images/wild_spring_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Pollinator friendly garden",
+    "description": "",
+    "src": "/images/pollinator_friendly_900_1200.jpg",
+    "msrc": "/images/pollinator_friendly_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "A cicada finds shelter in the Threadleaf Coreopsis (Coreopsis verticillata)",
+    "description": "",
+    "src": "/images/cicada_900_1200.jpg",
+    "msrc": "/images/cicada_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "A bee enjoying a Zig-zag Goldenrod (Solidago flexicaulis) in fall",
+    "description": "",
+    "src": "/images/wild_fall_1200_900.jpg",
+    "msrc": "/images/wild_fall_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Bee Balm (Monarda fistulosa) taking center stage in a newly installed garden",
+    "description": "",
+    "src": "/images/monarda_1200_900.jpg",
+    "msrc": "/images/monarda_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Redbud (Cercis canadensis) putting on a fireworks show in spring",
+    "description": "",
+    "src": "/images/redbud_900_1200.jpg",
+    "msrc": "/images/redbud_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Eye-catching Aronia (Aronia arbutifolia)",
+    "description": "",
+    "src": "/images/aronia_900_1200.jpg",
+    "msrc": "/images/aronia_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Lush green shade garden at the start of summer",
+    "description": "",
+    "src": "/images/summer_green_1200_900.jpg",
+    "msrc": "/images/summer_green_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "An herb garden replaced this pointless patio",
+    "description": "",
+    "src": "/images/herb_bed_1200_900.jpg",
+    "msrc": "/images/herb_bed_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Natives on a balcony garden, overlooking a local landmark; Part 1",
+    "description": "",
+    "src": "/images/balcony_pots_1_1200_900.jpg",
+    "msrc": "/images/balcony_pots_1_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Natives on a balcony garden, overlooking a local landmark; Part 2",
+    "description": "",
+    "src": "/images/balcony_pots_2_1200_900.jpg",
+    "msrc": "/images/balcony_pots_2_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
     "title": "Foamflower (Tiarella cordifolia)",
     "description": "",
     "src": "/images/tiarella_1200_900.jpg",
@@ -16,6 +144,14 @@
     "h": "900"
   },
   {
+    "title": "Virginia sweetspire (Itea virginica)",
+    "description": "Itea virginica, about to bloom",
+    "src": "/images/itea_900_1200.jpg",
+    "msrc": "/images/itea_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
     "title": "From gas line disaster to urban oasis",
     "description": "",
     "src": "/images/at_patio_900_1200.png",
@@ -24,12 +160,20 @@
     "h": "1200"
   },
   {
-    "title": "Virginia sweetspire (Itea virginica)",
-    "description": "Itea virginica, about to bloom",
-    "src": "/images/itea_900_1200.jpg",
-    "msrc": "/images/itea_300_400.jpg",
-    "w": "900",
-    "h": "1200"
+    "title": "Annuals shine while the perennials are still filling in",
+    "description": "",
+    "src": "/images/annuals_and_perennials_1200_900.jpg",
+    "msrc": "/images/annuals_and_perennials_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Shady patio in late Spring",
+    "description": "",
+    "src": "/images/shady_patio_1200_900.jpg",
+    "msrc": "/images/shady_patio_400_300.jpg",
+    "w": "1200",
+    "h": "900"
   },
   {
     "title": "Fall meadow",
