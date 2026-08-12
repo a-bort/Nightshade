@@ -1,9 +1,137 @@
 [
   {
-    "title": "Woodland patio",
+    "title": "Baptisia in bloom",
     "description": "",
-    "src": "/images/woodland_patio_1200_900.jpg",
-    "msrc": "/images/woodland_patio_400_300.jpg",
+    "src": "/images/baptisia_landscape_1200_800.jpg",
+    "msrc": "/images/baptisia_landscape_450_300.jpg",
+    "w": "1200",
+    "h": "800"
+  },
+  {
+    "title": "Forest Path garden",
+    "description": "",
+    "src": "/images/forest_path_landscape_1200_800.jpg",
+    "msrc": "/images/forest_path_landscape_450_300.jpg",
+    "w": "1200",
+    "h": "800"
+  },
+  {
+    "title": "Coreopsis in summer",
+    "description": "",
+    "src": "/images/coreopsis_landscape_1200_675.jpg",
+    "msrc": "/images/coreopsis_landscape_400_225.jpg",
+    "w": "1200",
+    "h": "675"
+  },
+  {
+    "title": "Dense Townhome garden",
+    "description": "",
+    "src": "/images/dense_townhome_landscape_1200_676.jpg",
+    "msrc": "/images/dense_townhome_landscape_400_225.jpg",
+    "w": "1200",
+    "h": "676"
+  },
+  {
+    "title": "Potted patio garden",
+    "description": "",
+    "src": "/images/potted_patio_landscape_1200_900.jpg",
+    "msrc": "/images/potted_patio_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Urban garden in Spring",
+    "description": "",
+    "src": "/images/spring_urban_landscape_1200_900.jpg",
+    "msrc": "/images/spring_urban_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Lush urban landscape",
+    "description": "",
+    "src": "/images/lush_urban_landscape_1200_900.jpg",
+    "msrc": "/images/lush_urban_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Urban patio garden",
+    "description": "",
+    "src": "/images/patio_urban_landscape_1200_900.jpg",
+    "msrc": "/images/patio_urban_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Geranium in the landscape",
+    "description": "",
+    "src": "/images/geranium_landscape_1200_900.jpg",
+    "msrc": "/images/geranium_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Phlox along a garden wall",
+    "description": "",
+    "src": "/images/phlox_spring_landscape_1200_900.jpg",
+    "msrc": "/images/phlox_spring_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Sunny Sloped garden",
+    "description": "",
+    "src": "/images/sunny_slope_landscape_1200_900.jpg",
+    "msrc": "/images/sunny_slope_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Urban meadow garden",
+    "description": "",
+    "src": "/images/urban_meadow_landscape_1200_900.jpg",
+    "msrc": "/images/urban_meadow_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Euonymus americanus",
+    "description": "",
+    "src": "/images/euonymus_americanus_specimen_900_1200.jpg",
+    "msrc": "/images/euonymus_americanus_specimen_300_400.jpg",
+    "w": "900",
+    "h": "1200"
+  },
+  {
+    "title": "Polystichum acrostichoides",
+    "description": "",
+    "src": "/images/polystichum_specimen_800_1200.jpg",
+    "msrc": "/images/polystichum_specimen_300_450.jpg",
+    "w": "800",
+    "h": "1200"
+  },
+  {
+    "title": "Thalictrum thalictroides",
+    "description": "",
+    "src": "/images/thalictrum_specimen_1200_800.jpg",
+    "msrc": "/images/thalictrum_specimen_450_300.jpg",
+    "w": "1200",
+    "h": "800"
+  },
+  {
+    "title": "Urban walkway",
+    "description": "",
+    "src": "/images/urban_walkway_landscape_1200_900.jpg",
+    "msrc": "/images/urban_walkway_landscape_400_300.jpg",
+    "w": "1200",
+    "h": "900"
+  },
+  {
+    "title": "Lush green shade garden at the start of summer",
+    "description": "",
+    "src": "/images/summer_green_1200_900.jpg",
+    "msrc": "/images/summer_green_400_300.jpg",
     "w": "1200",
     "h": "900"
   },
@@ -56,31 +184,7 @@
     "h": "1200"
   },
   {
-    "title": "A cicada finds shelter in the Threadleaf Coreopsis (Coreopsis verticillata)",
-    "description": "",
-    "src": "/images/cicada_900_1200.jpg",
-    "msrc": "/images/cicada_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "A bee enjoying a Zig-zag Goldenrod (Solidago flexicaulis) in fall",
-    "description": "",
-    "src": "/images/solidago_bee_1200_900.jpg",
-    "msrc": "/images/solidago_bee_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Bee Balm (Monarda fistulosa) taking center stage in a newly installed garden",
-    "description": "",
-    "src": "/images/monarda_1200_900.jpg",
-    "msrc": "/images/monarda_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Redbud (Cercis canadensis) putting on a fireworks show in spring",
+    "title": "Redbud (Cercis canadensis) putting on a show in spring",
     "description": "",
     "src": "/images/redbud_900_1200.jpg",
     "msrc": "/images/redbud_300_400.jpg",
@@ -96,34 +200,18 @@
     "h": "1200"
   },
   {
-    "title": "Lush green shade garden at the start of summer",
-    "description": "",
-    "src": "/images/summer_green_1200_900.jpg",
-    "msrc": "/images/summer_green_400_300.jpg",
-    "w": "1200",
-    "h": "900"
+    "title": "Virginia sweetspire (Itea virginica)",
+    "description": "Itea virginica, about to bloom",
+    "src": "/images/itea_900_1200.jpg",
+    "msrc": "/images/itea_300_400.jpg",
+    "w": "900",
+    "h": "1200"
   },
   {
     "title": "An herb garden replaced this pointless patio",
     "description": "",
     "src": "/images/herb_bed_1200_900.jpg",
     "msrc": "/images/herb_bed_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Natives on a balcony garden, overlooking a local landmark; Part 1",
-    "description": "",
-    "src": "/images/balcony_pots_1_1200_900.jpg",
-    "msrc": "/images/balcony_pots_1_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Natives on a balcony garden, overlooking a local landmark; Part 2",
-    "description": "",
-    "src": "/images/balcony_pots_2_1200_900.jpg",
-    "msrc": "/images/balcony_pots_2_400_300.jpg",
     "w": "1200",
     "h": "900"
   },
@@ -140,38 +228,6 @@
     "description": "",
     "src": "/images/columbine_1200_900.jpg",
     "msrc": "/images/columbine_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Virginia sweetspire (Itea virginica)",
-    "description": "Itea virginica, about to bloom",
-    "src": "/images/itea_900_1200.jpg",
-    "msrc": "/images/itea_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "From gas line disaster to urban oasis",
-    "description": "",
-    "src": "/images/at_patio_900_1200.png",
-    "msrc": "/images/at_patio_300_400.png",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "Annuals shine while the perennials are still filling in",
-    "description": "",
-    "src": "/images/annuals_and_perennials_1200_900.jpg",
-    "msrc": "/images/annuals_and_perennials_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "Shady patio in late Spring",
-    "description": "",
-    "src": "/images/shady_patio_1200_900.jpg",
-    "msrc": "/images/shady_patio_400_300.jpg",
     "w": "1200",
     "h": "900"
   },
@@ -288,14 +344,6 @@
     "h": "900"
   },
   {
-    "title": "Patio container garden, small but mighty",
-    "description": "This urban patio has been packed to the brim with plants, strategically placed to maximize lighting and plant happiness.",
-    "src": "/images/patio_rack_1200_900.jpg",
-    "msrc": "/images/patio_rack_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
     "title": "Deck planters",
     "description": "Large custom built planters adorn this suburban deck, which hosts a mix of perennial herbs, lettuces, and pollinator-friendly species.",
     "src": "/images/deck_planter_2_1200_900.jpg",
@@ -344,26 +392,10 @@
     "h": "1200"
   },
   {
-    "title": "Bee on Echinacea",
-    "description": "",
-    "src": "/images/bee_600_800.jpg",
-    "msrc": "/images/bee_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
     "title": "Resident Skink (Plestiodon sp.)",
     "description": "",
     "src": "/images/skink_900_1200.jpg",
     "msrc": "/images/skink_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "Tomato rainbow",
-    "description": "Tomatoes ripening on the vine",
-    "src": "/images/tomato_rainbow_900_1200.jpg",
-    "msrc": "/images/tomato_rainbow_300_400.jpg",
     "w": "900",
     "h": "1200"
   },
@@ -384,42 +416,10 @@
     "h": "1200"
   },
   {
-    "title": "Bort, meet squash",
-    "description": "Bort wrangling a serpent-like sqash from a clients late season veggie garden.",
-    "src": "/images/bort_squashed_900_1200.jpg",
-    "msrc": "/images/bort_squashed_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "Spring harvest",
-    "description": "",
-    "src": "/images/spring_harvest_900_1200.jpg",
-    "msrc": "/images/spring_harvest_300_400.jpg",
-    "w": "900",
-    "h": "1200"
-  },
-  {
-    "title": "Rue-anemone (Thalictrum thalictroides)",
-    "description": "A cute spring wildflower in a brand new landscape",
-    "src": "/images/thalictrum_1200_900.jpg",
-    "msrc": "/images/thalictrum_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
     "title": "New England Aster (Symphyotrichum novae-angliae)",
     "description": "",
     "src": "/images/aster_1200_900.jpg",
     "msrc": "/images/aster_400_300.jpg",
-    "w": "1200",
-    "h": "900"
-  },
-  {
-    "title": "A wild section of a larger property",
-    "description": "",
-    "src": "/images/back_nine_1200_900.jpg",
-    "msrc": "/images/back_nine_400_300.jpg",
     "w": "1200",
     "h": "900"
   },
