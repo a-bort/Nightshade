@@ -8,10 +8,10 @@
     "h": "800"
   },
   {
-    "title": "Forest Path garden",
+    "title": "Part Shade row home front yard",
     "description": "",
-    "src": "/images/forest_path_landscape_1200_800.jpg",
-    "msrc": "/images/forest_path_landscape_450_300.jpg",
+    "src": "/images/part_shade_1200_800.jpg",
+    "msrc": "/images/part_shade_450_300.jpg",
     "w": "1200",
     "h": "800"
   },
@@ -24,10 +24,26 @@
     "h": "675"
   },
   {
+    "title": "Urban Patio with Edible focus",
+    "description": "",
+    "src": "/images/urban_patio_edibles_1200_676.jpg",
+    "msrc": "/images/urban_patio_edibles_400_225.jpg",
+    "w": "1200",
+    "h": "675"
+  },
+  {
     "title": "Dense Townhome garden",
     "description": "",
     "src": "/images/dense_townhome_landscape_1200_676.jpg",
     "msrc": "/images/dense_townhome_landscape_400_225.jpg",
+    "w": "1200",
+    "h": "676"
+  },
+  {
+    "title": "Fall Purples, grass and aster alike",
+    "description": "",
+    "src": "/images/fall_purples_1200_676.jpg",
+    "msrc": "/images/fall_purples_400_225.jpg",
     "w": "1200",
     "h": "676"
   },
